@@ -1,0 +1,35 @@
+# Logs location
+# NOTE: This should be set when running the RCT
+RETR_LOG_FILE=retractobot.log
+
+# Postgres database
+RETR_DB_HOST=127.0.0.1
+RETR_DB_NAME=retractobot
+RETR_DB_USER=retractobot                     # Of the Postgres database
+RETR_DB_PASS=xxx
+
+# For Django sessions
+RETR_SECRET_KEY=xxx234123asdfasdf
+
+# For accessing pubmed API
+NCBI_API_KEY=xxxxx
+# Has to be false for the rests to pass
+RETR_USE_NCBI_API_KEY=False
+
+# For retrieving data from the Scopus API. The second token gives
+# access to author email addresses.
+SCOPUS_API_KEY=xxx
+SCOPUS_INSTTOKEN=xxx
+
+# For sending emails to authors
+RETR_MAILGUN_API_KEY=xxx
+
+# If set, caches PubMed and Scopus API calls in retractobot/cache.
+# This is useful when doing lots of debug runs of the PubMed
+# and Scopus parsers, so can rerun very quickly.
+# Not for use in production.
+RETR_CACHE_API_CALLS=False
+# It uses requests_cache, which use SQLite. If you get concurrency
+# errors from parallel processes, enable "PRAGMA busy_timeout"
+# somehow in the SQLite instance (I did it by editing the
+# request_cache code in the venv)

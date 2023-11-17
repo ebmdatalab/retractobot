@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2016//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_160101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27508352</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>8</Month>
+            <Day>10</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>8</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0976-7428</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>8</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of international oral health : JIOH</Title>
+                <ISOAbbreviation>J Int Oral Health</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Retraction Notice.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>650</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">[This retracts the article on p. 65 in vol. 7, PMID: 26435620.].</AbstractText>
+            </Abstract>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">RETRACTION OF PUBLICATION</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Int Oral Health</MedlineTA>
+            <NlmUniqueID>101562691</NlmUniqueID>
+            <ISSNLinking>0976-1799</ISSNLinking>
+        </MedlineJournalInfo>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="RetractionOf">
+                <RefSource>J Int Oral Health. 2015 Sep;7(9):65-9.</RefSource>
+                <PMID Version="1">26435620</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>8</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>8</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>8</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27508352</ArticleId>
+            <ArticleId IdType="pmc">PMC4979084</ArticleId>
+        </ArticleIdList>
+        <?pmcsd?>
+    </PubmedData>
+</PubmedArticle>
+</PubmedArticleSet>

@@ -1,0 +1,252 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.elsevier.com/content/abstract/scopus_id/38149032931?httpAccept=application%2Fjson
+  response:
+    body:
+      string: '{"abstracts-retrieval-response": {"item": {"ait:process-info": {"ait:status":
+        {"@state": "update", "@type": "core", "@stage": "S300"}, "ait:date-delivered":
+        {"@day": "19", "@timestamp": "2021-11-19T08:27:06.000006-05:00", "@year":
+        "2021", "@month": "11"}, "ait:date-sort": {"@day": "01", "@year": "2007",
+        "@month": "01"}}, "bibrecord": {"head": {"author-group": [{"@auid": 0}, {"@auid":
+        1}, {"@auid": 2}, {"@auid": 3}, {"@auid": 4}, {"@auid": 5}, {"@auid": 6}]}}},
+        "affiliation": [], "coredata": {"srctype": "j", "eid": "2-s2.0-38149032931",
+        "dc:description": "The epigenetic programming of genomic DNA is accomplished,
+        in part, by several DNA cytosine-5-methyltransferases that act by covalently
+        modifying cytosines with the addition of a methyl group. This covalent modification
+        is maintained by the DNA cytosine-5-methyltransferase-1 enzyme (DNMT1), which
+        is capable of acting in concert with other similar enzymes to silence important
+        tumor suppressor genes. IL-6 is a multifunctional mediator of inflammation,
+        acting through several major signaling cascades, including the phosphatidylinositol-3-kinase
+        pathway (PI-3-K), which activates protein kinase B (AKT/PKB) downstream. Here,
+        we show that the subcellular localization of DNMT1 can be altered by the addition
+        of IL-6, increasing the rate of nuclear translocation of the enzyme from the
+        cytosolic compartment. The mechanism of nuclear translocation of DNMT1 is
+        greatly enhanced by phosphorylation of the DNMT1 nuclear localization signal
+        (NLS) by PKB/AKT kinase. Mutagenic alteration of the two AKT target amino
+        acids within the NLS results in a major loss of DNMT1 nuclear translocation,
+        while the creation of a \"phospho-mimic\" amino acid (mutation to acidic residues)
+        restores this compartmentation ability. These observations suggest an interesting
+        hypothesis regarding how mediators of chronic inflammation may disturb the
+        delicate balance of cellular compartmentalization of important proteins, and
+        reveals a potential mechanism for the induction or enhancement of tumor growth
+        via alteration of the components involved in the epigenetic programming of
+        a cell.", "pubmed-id": "18204201", "prism:coverDate": "2007-01-01", "prism:aggregationType":
+        "Journal", "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/38149032931",
+        "dc:creator": {}, "link": [{"@_fa": "true", "@rel": "self", "@href": "https://api.elsevier.com/content/abstract/scopus_id/38149032931"},
+        {"@_fa": "true", "@rel": "scopus", "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=38149032931&origin=inward"},
+        {"@_fa": "true", "@rel": "scopus-citedby", "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=38149032931&origin=inward"}],
+        "source-id": "130074", "citedby-count": "92", "prism:volume": "4", "subtype":
+        "ar", "dc:title": "IL-6 enhances the nuclear translocation of DNA cytosine-5-methyltransferase
+        1 (DNMT1) via phosphorylation of the nuclear localization sequence by the
+        AKT kinase", "openaccess": null, "prism:issn": "17906245 11096535", "prism:issueIdentifier":
+        "6", "subtypeDescription": "Article", "prism:publicationName": "Cancer Genomics
+        and Proteomics", "prism:pageRange": "387-398", "prism:endingPage": "398",
+        "openaccessFlag": null, "prism:startingPage": "387", "dc:identifier": "SCOPUS_ID:38149032931",
+        "dc:publisher": "International Institute of Anticancer Research"}, "idxterms":
+        {"mainterm": [{"$": "DNA (cytosine 5) methyltransferase", "@weight": "a",
+        "@candidate": "n"}, {"$": "interleukin 6", "@weight": "a", "@candidate": "n"},
+        {"$": "protein kinase B", "@weight": "a", "@candidate": "n"}, {"$": "article",
+        "@weight": "b", "@candidate": "n"}, {"$": "cell compartmentalization", "@weight":
+        "b", "@candidate": "n"}, {"$": "controlled study", "@weight": "b", "@candidate":
+        "n"}, {"$": "DNA modification", "@weight": "b", "@candidate": "n"}, {"$":
+        "DNA transfer", "@weight": "a", "@candidate": "n"}, {"$": "enzyme localization",
+        "@weight": "b", "@candidate": "n"}, {"$": "enzyme mechanism", "@weight": "b",
+        "@candidate": "n"}, {"$": "epigenetics", "@weight": "b", "@candidate": "n"},
+        {"$": "gene sequence", "@weight": "a", "@candidate": "n"}, {"$": "gene silencing",
+        "@weight": "b", "@candidate": "n"}, {"$": "human", "@weight": "b", "@candidate":
+        "n"}, {"$": "human cell", "@weight": "b", "@candidate": "n"}, {"$": "mutagenic
+        activity", "@weight": "b", "@candidate": "n"}, {"$": "nucleotide sequence",
+        "@weight": "b", "@candidate": "n"}, {"$": "protein induction", "@weight":
+        "b", "@candidate": "n"}, {"$": "protein localization", "@weight": "a", "@candidate":
+        "n"}, {"$": "protein phosphorylation", "@weight": "a", "@candidate": "n"},
+        {"$": "protein transport", "@weight": "b", "@candidate": "n"}, {"$": "tumor
+        growth", "@weight": "b", "@candidate": "n"}, {"$": "tumor suppressor gene",
+        "@weight": "b", "@candidate": "n"}]}, "language": {"@xml:lang": "eng"}, "authkeywords":
+        {"author-keyword": [{"@_fa": "true", "$": "AKT"}, {"@_fa": "true", "$": "DNMT1"},
+        {"@_fa": "true", "$": "IL-6"}, {"@_fa": "true", "$": "Inflammation"}, {"@_fa":
+        "true", "$": "Methylation"}, {"@_fa": "true", "$": "Nuclear translocation"}]},
+        "subject-areas": {"subject-area": [{"@_fa": "true", "$": "Biochemistry", "@code":
+        "1303", "@abbrev": "BIOC"}, {"@_fa": "true", "$": "Molecular Biology", "@code":
+        "1312", "@abbrev": "BIOC"}, {"@_fa": "true", "$": "Genetics", "@code": "1311",
+        "@abbrev": "BIOC"}, {"@_fa": "true", "$": "Cancer Research", "@code": "1306",
+        "@abbrev": "BIOC"}]}, "authors": {}}}'
+    headers:
+      CF-Cache-Status: []
+      CF-RAY: []
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date: []
+      Last-Modified:
+      - Sun, 28 Nov 2021 22:23:06 GMT
+      Server:
+      - cloudflare
+      Set-Cookie: []
+      Transfer-Encoding:
+      - chunked
+      Vary: []
+      allow:
+      - GET
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&rettype=abstract&id=18204201
+  response:
+    body:
+      string: '<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January
+        2023//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_230101.dtd">
+
+        <PubmedArticleSet>
+
+        <PubmedArticle><MedlineCitation Status="MEDLINE" Owner="NLM"><PMID Version="1">18204201</PMID><DateCompleted><Year>2008</Year><Month>06</Month><Day>27</Day></DateCompleted><DateRevised><Year>2022</Year><Month>04</Month><Day>08</Day></DateRevised><Article
+        PubModel="Print"><Journal><ISSN IssnType="Print">1109-6535</ISSN><JournalIssue
+        CitedMedium="Print"><Volume>4</Volume><Issue>6</Issue><PubDate><Year>2007</Year><Season>Nov-Dec</Season></PubDate></JournalIssue><Title>Cancer
+        genomics &amp; proteomics</Title><ISOAbbreviation>Cancer Genomics Proteomics</ISOAbbreviation></Journal><ArticleTitle>IL-6
+        enhances the nuclear translocation of DNA cytosine-5-methyltransferase 1 (DNMT1)
+        via phosphorylation of the nuclear localization sequence by the AKT kinase.</ArticleTitle><Pagination><StartPage>387</StartPage><EndPage>398</EndPage><MedlinePgn>387-98</MedlinePgn></Pagination><Abstract><AbstractText>The
+        epigenetic programming of genomic DNA is accomplished, in part, by several
+        DNA cytosine-5-methyltransferases that act by covalently modifying cytosines
+        with the addition of a methyl group. This covalent modification is maintained
+        by the DNA cytosine-5-methyltransferase-1 enzyme (DNMT1), which is capable
+        of acting in concert with other similar enzymes to silence important tumor
+        suppressor genes. IL-6 is a multifunctional mediator of inflammation, acting
+        through several major signaling cascades, including the phosphatidylinositol-3-kinase
+        pathway (PI-3-K), which activates protein kinase B (AKT/PKB) downstream. Here,
+        we show that the subcellular localization of DNMT1 can be altered by the addition
+        of IL-6, increasing the rate of nuclear translocation of the enzyme from the
+        cytosolic compartment. The mechanism of nuclear translocation of DNMT1 is
+        greatly enhanced by phosphorylation of the DNMT1 nuclear localization signal
+        (NLS) by PKB/AKT kinase. Mutagenic alteration of the two AKT target amino
+        acids within the NLS results in a major loss of DNMT1 nuclear translocation,
+        while the creation of a "phospho-mimic" amino acid (mutation to acidic residues)
+        restores this compartmentation ability. These observations suggest an interesting
+        hypothesis regarding how mediators of chronic inflammation may disturb the
+        delicate balance of cellular compartmentalization of important proteins, and
+        reveals a potential mechanism for the induction or enhancement of tumor growth
+        via alteration of the components involved in the epigenetic programming of
+        a cell.</AbstractText></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Last
+        Name 0</LastName><ForeName>First Name 0</ForeName><Initials>Initials 0</Initials><AffiliationInfo><Affiliation>Affiliation
+        0</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 1</LastName><ForeName>First Name 1</ForeName><Initials>Initials 1</Initials></Author><Author
+        ValidYN="Y"><LastName>Last Name 2</LastName><ForeName>First Name 2</ForeName><Initials>Initials
+        2</Initials></Author><Author ValidYN="Y"><LastName>Last Name 3</LastName><ForeName>First
+        Name 3</ForeName><Initials>Initials 3</Initials></Author><Author ValidYN="Y"><LastName>Last
+        Name 4</LastName><ForeName>First Name 4</ForeName><Initials>Initials 4</Initials></Author><Author
+        ValidYN="Y"><LastName>Last Name 5</LastName><ForeName>First Name 5</ForeName><Initials>Initials
+        5</Initials></Author><Author ValidYN="Y"><LastName>Last Name 6</LastName><ForeName>First
+        Name 6</ForeName><Initials>Initials 6</Initials></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType
+        UI="D016428">Journal Article</PublicationType></PublicationTypeList></Article><MedlineJournalInfo><Country>Greece</Country><MedlineTA>Cancer
+        Genomics Proteomics</MedlineTA><NlmUniqueID>101188791</NlmUniqueID><ISSNLinking>1109-6535</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="D015850">Interleukin-6</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="D028884">Karyopherins</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="D050505">Mutant Proteins</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="D019913">Nuclear Localization Signals</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="D010761">Phosphorus Radioisotopes</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="D011993">Recombinant Fusion Proteins</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="C485184">enhanced green fluorescent protein</NameOfSubstance></Chemical><Chemical><RegistryNumber>147336-22-9</RegistryNumber><NameOfSubstance
+        UI="D049452">Green Fluorescent Proteins</NameOfSubstance></Chemical><Chemical><RegistryNumber>EC
+        2.1.1.37</RegistryNumber><NameOfSubstance UI="D000076123">DNA (Cytosine-5-)-Methyltransferase
+        1</NameOfSubstance></Chemical><Chemical><RegistryNumber>EC 2.1.1.37</RegistryNumber><NameOfSubstance
+        UI="D004248">DNA (Cytosine-5-)-Methyltransferases</NameOfSubstance></Chemical><Chemical><RegistryNumber>EC
+        2.1.1.37</RegistryNumber><NameOfSubstance UI="C000619380">DNMT1 protein, human</NameOfSubstance></Chemical><Chemical><RegistryNumber>EC
+        2.7.11.1</RegistryNumber><NameOfSubstance UI="D051057">Proto-Oncogene Proteins
+        c-akt</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName
+        UI="D000595" MajorTopicYN="N">Amino Acid Sequence</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D002460" MajorTopicYN="N">Cell Line</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D002467" MajorTopicYN="N">Cell Nucleus</DescriptorName><QualifierName
+        UI="Q000187" MajorTopicYN="Y">drug effects</QualifierName><QualifierName UI="Q000201"
+        MajorTopicYN="Y">enzymology</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D000076123" MajorTopicYN="N">DNA (Cytosine-5-)-Methyltransferase 1</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D004248" MajorTopicYN="N">DNA (Cytosine-5-)-Methyltransferases</DescriptorName><QualifierName
+        UI="Q000737" MajorTopicYN="N">chemistry</QualifierName><QualifierName UI="Q000378"
+        MajorTopicYN="Y">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D049452" MajorTopicYN="N">Green Fluorescent Proteins</DescriptorName><QualifierName
+        UI="Q000378" MajorTopicYN="N">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D006801" MajorTopicYN="N">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D015850" MajorTopicYN="N">Interleukin-6</DescriptorName><QualifierName
+        UI="Q000494" MajorTopicYN="Y">pharmacology</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D007553" MajorTopicYN="N">Isotope Labeling</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D028884" MajorTopicYN="N">Karyopherins</DescriptorName><QualifierName
+        UI="Q000378" MajorTopicYN="N">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D008969" MajorTopicYN="N">Molecular Sequence Data</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D050505" MajorTopicYN="N">Mutant Proteins</DescriptorName><QualifierName
+        UI="Q000378" MajorTopicYN="N">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D019913" MajorTopicYN="N">Nuclear Localization Signals</DescriptorName><QualifierName
+        UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D010761" MajorTopicYN="N">Phosphorus Radioisotopes</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D010766" MajorTopicYN="N">Phosphorylation</DescriptorName><QualifierName
+        UI="Q000187" MajorTopicYN="N">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D011485" MajorTopicYN="N">Protein Binding</DescriptorName><QualifierName
+        UI="Q000187" MajorTopicYN="N">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D017434" MajorTopicYN="N">Protein Structure, Tertiary</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D021381" MajorTopicYN="N">Protein Transport</DescriptorName><QualifierName
+        UI="Q000187" MajorTopicYN="N">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D051057" MajorTopicYN="N">Proto-Oncogene Proteins c-akt</DescriptorName><QualifierName
+        UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D011993" MajorTopicYN="N">Recombinant Fusion Proteins</DescriptorName><QualifierName
+        UI="Q000378" MajorTopicYN="N">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D020539" MajorTopicYN="N">Sequence Analysis, Protein</DescriptorName></MeshHeading></MeshHeadingList></MedlineCitation><PubmedData><History><PubMedPubDate
+        PubStatus="pubmed"><Year>2008</Year><Month>1</Month><Day>22</Day><Hour>9</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate
+        PubStatus="medline"><Year>2008</Year><Month>6</Month><Day>28</Day><Hour>9</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate
+        PubStatus="entrez"><Year>2008</Year><Month>1</Month><Day>22</Day><Hour>9</Hour><Minute>0</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId
+        IdType="pubmed">18204201</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      CF-Cache-Status: []
+      CF-RAY: []
+      Cache-Control:
+      - private
+      Connection:
+      - Keep-Alive
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Date: []
+      Keep-Alive:
+      - timeout=4, max=40
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Server:
+      - Finatra
+      Set-Cookie: []
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary: []
+      content-encoding:
+      - gzip
+    status:
+      code: 200
+      message: OK
+version: 1

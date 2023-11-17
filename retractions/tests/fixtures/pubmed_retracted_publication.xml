@@ -1,0 +1,179 @@
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">10066780</PMID>
+        <DateCreated>
+            <Year>1999</Year>
+            <Month>04</Month>
+            <Day>13</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>1999</Year>
+            <Month>04</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2007</Year>
+            <Month>11</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0021-9258</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>274</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>1999</Year>
+                        <Month>Mar</Month>
+                        <Day>12</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of biological chemistry</Title>
+                <ISOAbbreviation>J. Biol. Chem.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>CREB-binding [corrected] protein interacts with the homeodomain protein Cdx2 and enhances transcriptional activity.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>7196-9</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Cdx2 encodes for a homeodomain protein that is expressed in intestinal epithelial cells. The Cdx2 protein triggers intestinal differentiation in cell lines and is necessary for maintenance of the intestinal phenotype in mice. CBP (cAMP response element-binding protein) is a transcriptional co-activator that interacts with many transcription factors and components of the basal transcriptional machinery. In this study, we demonstrate that CBP is markedly induced upon differentiation of the Caco-2 intestinal cell line and augments Cdx2-dependent transcriptional activity. Cdx2 interacts with the amino-terminal domain of CBP, and the two proteins coexist in vivo within the same nuclear protein complex. Moreover, expression of the CBP domain that interacts with Cdx2 acts as a dominant-negative inhibitor of transcriptional activation by Cdx2. These findings demonstrate a direct interaction between an intestinal homeodomain protein and CBP and suggest that CBP participates in the network of transcriptional proteins that direct intestinal differentiation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Last Name</LastName>
+                    <ForeName>Fore Name</ForeName>
+                    <Initials>Initial</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Affil</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>P30-DK50306</GrantID>
+                    <Acronym>DK</Acronym>
+                    <Agency>NIDDK NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01-DK46704</GrantID>
+                    <Acronym>DK</Acronym>
+                    <Agency>NIDDK NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                <PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+                <PublicationType UI="D016441">Retracted Publication</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Biol Chem</MedlineTA>
+            <NlmUniqueID>2985121R</NlmUniqueID>
+            <ISSNLinking>0021-9258</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D022762">CCAAT-Enhancer-Binding Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D004268">DNA-Binding Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D018398">Homeodomain Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D009687">Nuclear Proteins</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="ErratumIn">
+                <RefSource>J Biol Chem 1999 May 7;274(19):13728</RefSource>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="RetractionIn">
+                <RefSource>J Biol Chem. 2001 Mar 30;276(13):10576</RefSource>
+                <PMID Version="1">11905463</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D016475" MajorTopicYN="N">3T3 Cells</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D022762" MajorTopicYN="N">CCAAT-Enhancer-Binding Proteins</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018938" MajorTopicYN="N">Caco-2 Cells</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002454" MajorTopicYN="N">Cell Differentiation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002455" MajorTopicYN="N">Cell Division</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004268" MajorTopicYN="N">DNA-Binding Proteins</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018398" MajorTopicYN="N">Homeodomain Proteins</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D051379" MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009687" MajorTopicYN="N">Nuclear Proteins</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011485" MajorTopicYN="N">Protein Binding</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014158" MajorTopicYN="Y">Transcription, Genetic</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>1999</Year>
+                <Month>3</Month>
+                <Day>6</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>1999</Year>
+                <Month>3</Month>
+                <Day>6</Day>
+                <Hour>0</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>1999</Year>
+                <Month>3</Month>
+                <Day>6</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">10066780</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>

@@ -1,0 +1,59 @@
+name: "Retractobot CI"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: "opensafely-core/setup-action@v1"
+        with:
+          python-version: "3.10"
+          install-just: true
+      - name: Check formatting, linting and import sorting
+        run: just check
+
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:14
+        env:
+          POSTGRES_USER: retractobot
+          POSTGRES_PASSWORD: xxx
+          POSTGRES_DB: retractobot
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: "opensafely-core/setup-action@v1"
+        with:
+          python-version: "3.10"
+          install-just: true
+
+      - name: Environment variables
+        run: cp environment-sample environment
+
+      - name: Install venv
+        run: just devenv
+
+      - name: Check migrations
+        run: |
+          just check-migrations
+
+      - name: Run tests
+        run: |
+          just test

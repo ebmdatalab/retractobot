@@ -1,0 +1,95 @@
+[
+  {
+    "model": "retractions.author",
+    "pk": 1000,
+    "fields": {
+      "auid": "1000",
+      "citing_papers": [500000],
+      "pairs": [1]
+    }
+  },
+  {
+     "model": "retractions.authoralias",
+     "pk": 2000,
+     "fields": {
+       "author": 1000,
+       "email_address": "tofu@beans.com",
+       "surname": "Tofu",
+       "given_name": "Victor S."
+     }
+  },
+  {
+     "model": "retractions.authoralias",
+     "pk": 2001,
+     "fields": {
+       "author": 1000,
+       "email_address": "tofu@prior.edu",
+       "surname": "Tofu",
+       "given_name": "Victor"
+     }
+  },
+
+  {
+    "model": "retractions.retractedpaper",
+    "pk": "3000",
+    "fields": {
+      "doi": null,
+      "title": "Tofu eating in children: a prospective randomized study.",
+      "artdate": null,
+      "journaldate": "1999-03-01",
+      "journaldate_granularity": "m",
+      "pub_types": "[\"Clinical Trial\", \"Journal Article\", \"Randomized Controlled Trial\", \"Retracted Publication\"]",
+      "issn": "0022-5223",
+      "journaltitle": "The Journal of Tofu Studies",
+      "created_at": "2018-03-07T02:44:10.721",
+      "updated_at": "2018-03-08T02:30:19.406",
+      "scopus_id": "0222227",
+      "journal_iso": "J. Tofu.",
+      "rct_group": "i",
+      "exclusion_reason": null,
+      "comparisondate": "1999-03-01",
+      "pmid": "2000007"
+    }
+  },
+
+  {
+    "model": "retractions.retractionnotice",
+    "pk": "4000",
+    "fields": {
+      "doi": null,
+      "title": "[The cases of plagiarism in \"Tofu\"].",
+      "artdate": null,
+      "journaldate": "1999-09-01",
+      "journaldate_granularity": "m",
+      "pub_types": "[\"Retraction of Publication\"]",
+      "issn": "0017-0011",
+      "journaltitle": "J. Tofu.",
+      "created_at": "2018-03-07T02:44:47.883",
+      "updated_at": "2018-03-07T02:44:47.885",
+      "comparisondate": "1999-09-01",
+      "papers": [2000007]
+    }
+  },
+
+  {
+    "model": "retractions.citingpaper",
+    "pk": 5000,
+    "fields": {
+      "doi": "tofudoi",
+      "title": "Empagliflozin limits Tofu eating",
+      "artdate": "2017-12-19",
+      "journaldate": "2017-01-01",
+      "journaldate_granularity": "y",
+      "pub_types": "[\"Journal Article\"]",
+      "issn": "1664042X",
+      "journaltitle": null,
+      "created_at": "2018-02-12T07:36:11.109",
+      "updated_at": "2018-02-12T07:36:11.111",
+      "scopus_id": "500000",
+      "paper": [2000007],
+      "journalname": "Frontiers in Tofu",
+      "prismcoverdate": "2017-12-19",
+      "comparisondate": "2017-12-19"
+    }
+  }
+]

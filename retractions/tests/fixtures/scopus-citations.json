@@ -1,0 +1,160 @@
+{
+  "search-results": {
+    "opensearch:totalResults": "1227",
+    "opensearch:startIndex": "0",
+    "opensearch:itemsPerPage": "20",
+    "opensearch:Query": {
+      "@role": "request",
+      "@searchTerms": "REFEID(2-s2.0-19944433652)",
+      "@startPage": "0"
+    },
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "http://api.elsevier.com:80/content/search/scopus?start=0&count=20&query=REFEID%282-s2.0-19944433652%29&httpAccept=application%2Fjson&apiKey=d40fe0afa029f1fbe807dffd064488f5&field=title%2Ceid",
+        "@type": "application/json"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "first",
+        "@href": "http://api.elsevier.com:80/content/search/scopus?start=0&count=20&query=REFEID%282-s2.0-19944433652%29&httpAccept=application%2Fjson&apiKey=d40fe0afa029f1fbe807dffd064488f5&field=title%2Ceid",
+        "@type": "application/json"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "next",
+        "@href": "http://api.elsevier.com:80/content/search/scopus?start=20&count=20&query=REFEID%282-s2.0-19944433652%29&httpAccept=application%2Fjson&apiKey=d40fe0afa029f1fbe807dffd064488f5&field=title%2Ceid",
+        "@type": "application/json"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "last",
+        "@href": "http://api.elsevier.com:80/content/search/scopus?start=1207&count=20&query=REFEID%282-s2.0-19944433652%29&httpAccept=application%2Fjson&apiKey=d40fe0afa029f1fbe807dffd064488f5&field=title%2Ceid",
+        "@type": "application/json"
+      }
+    ],
+    "entry": [
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/17444379388",
+        "eid": "2-s2.0-17444379388",
+        "dc:title": "Adipocytokines do not stop growing bigger: Discovery of visfatin"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/34247466418",
+        "eid": "2-s2.0-34247466418",
+        "dc:title": "Exogenous insulin use and hypertension [3]"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/70350740988",
+        "eid": "2-s2.0-70350740988",
+        "dc:title": "Effect of pioglitazone on visfatin expression in high-fat diets fed SD rats"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/21444460727",
+        "eid": "2-s2.0-21444460727",
+        "dc:title": "Visfatin and the total endocrinology"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/34247540340",
+        "eid": "2-s2.0-34247540340",
+        "dc:title": "It is time we ended the myth of insulin as an atherogenic hormone - In reply [5]"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/66549095581",
+        "eid": "2-s2.0-66549095581",
+        "dc:title": "Visfatin: The link between inflammation and childhood obesity"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/84876813914",
+        "eid": "2-s2.0-84876813914",
+        "dc:title": "Relationship between serum omentin and glycolipid metabolism in type 2 diabetic patients"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/33749433515",
+        "eid": "2-s2.0-33749433515",
+        "dc:title": "The adipokine visfatin is markedly elevated in obese children"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/84909150447",
+        "eid": "2-s2.0-84909150447",
+        "dc:title": "Plasma visfatin concentrations are related to metabolic parameters in physically active adolescent boys"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/63449142501",
+        "eid": "2-s2.0-63449142501",
+        "dc:title": "Detection of visfatin level of plasma in patients with coronary artery diseases"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/84901789399",
+        "eid": "2-s2.0-84901789399",
+        "dc:title": "Study of the correlation between growth hormone deficiency and serum leptin, adiponectin, and visfatin levels in adults"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/84868689026",
+        "eid": "2-s2.0-84868689026",
+        "dc:title": "Effects of three different treatments on atherosclerosis and adipose in rats"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/34249010496",
+        "eid": "2-s2.0-34249010496",
+        "dc:title": "Preanalytical influences on the measurement of visfatin by enzyme immuno assay"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/84891685271",
+        "eid": "2-s2.0-84891685271",
+        "dc:title": "Rosiglitazone influences expression of visfatin in 3T3-L1 adipocytes through inhibiting oxidative stress"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/80051874749",
+        "eid": "2-s2.0-80051874749",
+        "dc:title": "Wisfatyna - Co dotychczas wiadomo o jej roli w fizjologii i patologii?"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/41849119173",
+        "eid": "2-s2.0-41849119173",
+        "dc:title": "Visfatin (pre-B cell colony-enhancing factor) gene expression in patients with rheumatoid arthritis"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/79953697093",
+        "eid": "2-s2.0-79953697093",
+        "dc:title": "The expression of visfatin in placenta in women with gestational diabetes mellitus"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/45449120845",
+        "eid": "2-s2.0-45449120845",
+        "dc:title": "Plasma visfatin is reduced after aerobic exercise in early onset type 2 diabetes mellitus"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/12344327355",
+        "eid": "2-s2.0-12344327355",
+        "dc:title": "Visfatin: A new adipokine"
+      },
+      {
+        "@_fa": "true",
+        "prism:url": "http://api.elsevier.com/content/abstract/scopus_id/84898777789",
+        "eid": "2-s2.0-84898777789",
+        "dc:title": "Relationship between plasma visfatin and visceral fat thickness measured by ultrasonography in nonalcoholic fatty liver disease"
+      }
+    ]
+  }
+}

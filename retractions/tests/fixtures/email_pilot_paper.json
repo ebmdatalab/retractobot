@@ -1,0 +1,40 @@
+[
+{
+  "model": "retractions.retractedpaper",
+  "pk": "1281519",
+  "fields": {
+    "doi": "10.1038/360745a0",
+    "title": "Formation of haematopoietic microenvironment and haematopoietic stem cells from single human bone marrow stem cells.",
+    "artdate": null,
+    "journaldate": null,
+    "journaldate_granularity": null,
+    "pub_types": "[\"Journal Article\", \"Retracted Publication\"]",
+    "issn": "0028-0836",
+    "journaltitle": "Nature",
+    "created_at": "2018-01-30T15:05:02.235",
+    "updated_at": "2018-06-04T17:28:31.903",
+    "scopus_id": "0027094144",
+    "journal_iso": "Nature",
+    "rct_group": null,
+    "exclusion_reason": null
+  }
+},
+{
+  "model": "retractions.retractionnotice",
+  "pk": "8152468",
+  "fields": {
+    "doi": "10.1038/368664a0",
+    "title": "Formation of haematopoietic microenvironment and haematopoietic stem cells from single human bone marrow stem cells.",
+    "artdate": null,
+    "journaldate": "1994-04-14",
+    "journaldate_granularity": "d",
+    "pub_types": "[\"Retraction of Publication\"]",
+    "issn": "0028-0836",
+    "journaltitle": "Nature",
+    "created_at": "2018-01-30T15:05:02.243",
+    "updated_at": "2018-01-30T15:05:02.246",
+    "papers": [1281519]
+  }
+}
+]
+

@@ -1,0 +1,35 @@
+default_language_version:
+  python: python3.10
+
+repos:
+  - repo: local
+    hooks:
+    - id: black
+      name: black
+      entry: just black
+      language: system
+      types: [python]
+      require_serial: true
+    - id: ruff
+      name: ruff
+      entry: just ruff
+      language: system
+      types: [python]
+      require_serial: true
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+    - id: trailing-whitespace
+    - id: end-of-file-fixer
+    - id: debug-statements
+    - id: check-ast
+    - id: check-json
+    - id: check-toml
+    - id: check-yaml
+    - id: detect-private-key
+
+  - repo: https://github.com/stratasan/hadolint-pre-commit
+    rev: cdefcb0
+    hooks:
+    - id: hadolint

@@ -1,0 +1,19 @@
+# Main prod requirements
+
+# To generate requirements file, run:
+# pip-compile --generate-hashes --output-file=requirements.prod.txt requirements.prod.in
+
+dateparser
+Django
+django-anymail
+environs[django]
+gunicorn
+html2text
+lxml
+psycopg2-binary
+requests
+requests-cache
+SchemDraw
+tableone
+vcrpy
+pandas

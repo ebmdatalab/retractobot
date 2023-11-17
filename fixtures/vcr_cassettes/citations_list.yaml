@@ -1,0 +1,287 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.elsevier.com/content/search/scopus?httpAccept=application%2Fjson&query=PMID%2818204201%29
+  response:
+    body:
+      string: '{"search-results":{"opensearch:totalResults":"1","opensearch:startIndex":"0","opensearch:itemsPerPage":"1","opensearch:Query":{"@role":
+        "request", "@searchTerms": "PMID(18204201)", "@startPage": "0"},"link": [{"@_fa":
+        "true", "@ref": "self", "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=PMID%2818204201%29",
+        "@type": "application/json"},{"@_fa": "true", "@ref": "first", "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=PMID%2818204201%29",
+        "@type": "application/json"}],"entry": [{"@_fa": "true", "link": [{"@_fa":
+        "true", "@ref": "self", "@href": "https://api.elsevier.com/content/abstract/scopus_id/38149032931"},{"@_fa":
+        "true", "@ref": "author-affiliation", "@href": "https://api.elsevier.com/content/abstract/scopus_id/38149032931?field=author,affiliation"},{"@_fa":
+        "true", "@ref": "scopus", "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=38149032931&origin=inward"},{"@_fa":
+        "true", "@ref": "scopus-citedby", "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=38149032931&origin=inward"}],"prism:url":"https://api.elsevier.com/content/abstract/scopus_id/38149032931","dc:identifier":"SCOPUS_ID:38149032931","eid":"2-s2.0-38149032931","dc:title":"IL-6
+        enhances the nuclear translocation of DNA cytosine-5-methyltransferase 1 (DNMT1)
+        via phosphorylation of the nuclear localization sequence by the AKT kinase","dc:creator":"Hodge
+        D.R.","prism:publicationName":"Cancer Genomics and Proteomics","prism:issn":"11096535","prism:eIssn":"17906245","prism:volume":"4","prism:issueIdentifier":"6","prism:pageRange":"387-398","prism:coverDate":"2007-01-01","prism:coverDisplayDate":"November/December
+        2007","citedby-count":"92","affiliation": [{"@_fa": "true", "affilname":"National
+        Cancer Institute at Frederick","affiliation-city":"Frederick","affiliation-country":"United
+        States"}],"pubmed-id":"18204201","prism:aggregationType":"Journal","subtype":"ar","subtypeDescription":"Article","source-id":"130074","openaccess":"0","openaccessFlag":false}]}}'
+    headers:
+      CF-Cache-Status: []
+      CF-RAY: []
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date: []
+      Server:
+      - cloudflare
+      Set-Cookie: []
+      Transfer-Encoding:
+      - chunked
+      Vary: []
+      allow:
+      - GET
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.elsevier.com/content/search/scopus?count=200&field=title%2Ceid&httpAccept=application%2Fjson&query=REFEID%282-s2.0-38149032931%29&start=0
+  response:
+    body:
+      string: "{\"search-results\":{\"opensearch:totalResults\":\"92\",\"opensearch:startIndex\":\"0\",\"opensearch:itemsPerPage\":\"92\",\"opensearch:Query\":{\"@role\":
+        \"request\", \"@searchTerms\": \"REFEID(2-s2.0-38149032931)\", \"@startPage\":
+        \"0\"},\"link\": [{\"@_fa\": \"true\", \"@ref\": \"self\", \"@href\": \"https://api.elsevier.com/content/search/scopus?start=0&count=200&query=REFEID%282-s2.0-38149032931%29&field=title%2Ceid&httpAccept=application%2Fjson\",
+        \"@type\": \"application/json\"},{\"@_fa\": \"true\", \"@ref\": \"first\",
+        \"@href\": \"https://api.elsevier.com/content/search/scopus?start=0&count=200&query=REFEID%282-s2.0-38149032931%29&field=title%2Ceid&httpAccept=application%2Fjson\",
+        \"@type\": \"application/json\"}],\"entry\": [{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85161329214\",\"eid\":\"2-s2.0-85161329214\",\"dc:title\":\"Pregnancy,
+        infection, and epigenetic regulation: A complex scenario\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85158134373\",\"eid\":\"2-s2.0-85158134373\",\"dc:title\":\"Oncogenic
+        signaling-mediated regulation of chromatin during tumorigenesis\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85149804809\",\"eid\":\"2-s2.0-85149804809\",\"dc:title\":\"Influence
+        of Immune System Abnormalities Caused by Maternal Immune Activation in the
+        Postnatal Period\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85149023200\",\"eid\":\"2-s2.0-85149023200\",\"dc:title\":\"PGC7
+        Regulates Genome-Wide DNA Methylation by Regulating ERK-Mediated Subcellular
+        Localization of DNMT1\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85141605850\",\"eid\":\"2-s2.0-85141605850\",\"dc:title\":\"No
+        dynamic changes in the expression of genes related to the epigenetic mechanism
+        during acute exercise\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85145406244\",\"eid\":\"2-s2.0-85145406244\",\"dc:title\":\"SARS-CoV-2
+        (COVID-19) as a possible risk factor for neurodevelopmental disorders\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85131625365\",\"eid\":\"2-s2.0-85131625365\",\"dc:title\":\"The
+        phosphorylation to acetylation/methylation cascade in transcriptional regulation:
+        how kinases regulate transcriptional activities of DNA/histone-modifying enzymes\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85137856715\",\"eid\":\"2-s2.0-85137856715\",\"dc:title\":\"Geometric
+        Constraints Regulate Energy Metabolism and Cellular Contractility in Vascular
+        Smooth Muscle Cells by Coordinating Mitochondrial DNA Methylation\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85140863568\",\"eid\":\"2-s2.0-85140863568\",\"dc:title\":\"The
+        Cross-Talk between Epigenetic Gene Regulation and Signaling Pathways Regulates
+        Cancer Pathogenesis\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85113774362\",\"eid\":\"2-s2.0-85113774362\",\"dc:title\":\"Research
+        progress of phenolic compounds regulating IL-6 to exert antitumor effects\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85118296776\",\"eid\":\"2-s2.0-85118296776\",\"dc:title\":\"Epigenetic
+        Signaling of Cancer Stem Cells During Inflammation\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85118908505\",\"eid\":\"2-s2.0-85118908505\",\"dc:title\":\"Environmental
+        factors and epigenetics\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85102863455\",\"eid\":\"2-s2.0-85102863455\",\"dc:title\":\"A
+        long intergenic non-coding RNA regulates nuclear localization of DNA methyl
+        transferase-1\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85172125742\",\"eid\":\"2-s2.0-85172125742\",\"dc:title\":\"Environmental
+        Factors and Epigenetics\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85101261874\",\"eid\":\"2-s2.0-85101261874\",\"dc:title\":\"Exposure
+        to maternal immune activation causes congenital unfolded protein response
+        defects and increases the susceptibility to postnatal inflammatory stimulation
+        in offspring\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85076545225\",\"eid\":\"2-s2.0-85076545225\",\"dc:title\":\"T<inf>reg</inf>
+        cell-based therapies: challenges and perspectives\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85088990663\",\"eid\":\"2-s2.0-85088990663\",\"dc:title\":\"Effect
+        of heat-inactivated Lactobacillus paracasei N1115 on microbiota and gut-brain
+        axis related molecules\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85068087765\",\"eid\":\"2-s2.0-85068087765\",\"dc:title\":\"Transgenerational
+        consequences of maternal immune activation\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85063863234\",\"eid\":\"2-s2.0-85063863234\",\"dc:title\":\"Emerging
+        role of PI3K/AKT in tumor-related epigenetic regulation\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85070930346\",\"eid\":\"2-s2.0-85070930346\",\"dc:title\":\"Metformin
+        and sitagliptin combination therapy ameliorates polycystic ovary syndrome
+        with insulin resistance through upregulation of lncRNA H19\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85083390476\",\"eid\":\"2-s2.0-85083390476\",\"dc:title\":\"Epigenetic
+        regulation of inflammatory cytokine-induced epithelial-to-mesenchymal cell
+        transition and cancer stem cell generation\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85059566166\",\"eid\":\"2-s2.0-85059566166\",\"dc:title\":\"Brain
+        changes in a maternal immune activation model of neurodevelopmental brain
+        disorders\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85062421521\",\"eid\":\"2-s2.0-85062421521\",\"dc:title\":\"Methyl
+        donor nutrients in chronic kidney disease: Impact on the epigenetic landscape\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85063437855\",\"eid\":\"2-s2.0-85063437855\",\"dc:title\":\"Downregulation
+        of KLF13 through DNMT1-mediated hypermethylation promotes glioma cell proliferation
+        and invasion\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85060652256\",\"eid\":\"2-s2.0-85060652256\",\"dc:title\":\"Animal
+        models and their contribution to our understanding of the relationship between
+        environments, epigenetic modifications, and behavior\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85048865635\",\"eid\":\"2-s2.0-85048865635\",\"dc:title\":\"The
+        ASD Living Biology: from cell proliferation to clinical phenotype\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85051271889\",\"eid\":\"2-s2.0-85051271889\",\"dc:title\":\"Cytokines
+        in cerebrospinal fluid of patients with schizophrenia spectrum disorders:
+        New data and an updated meta-analysis\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85053793904\",\"eid\":\"2-s2.0-85053793904\",\"dc:title\":\"Pro-inflammatory
+        cytokines IL-6 and CCL2 suppress expression of circadian gene Period2 in mammary
+        epithelial cells\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85049121181\",\"eid\":\"2-s2.0-85049121181\",\"dc:title\":\"Interleukin-6
+        determines protein stabilization of DNA methyltransferases and alters DNA
+        promoter methylation of genes associated with insulin signaling and angiogenesis\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85057800583\",\"eid\":\"2-s2.0-85057800583\",\"dc:title\":\"Preterm
+        birth and the risk of neurodevelopmental disorders - Is there a role for epigenetic
+        dysregulation?\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85040625567\",\"eid\":\"2-s2.0-85040625567\",\"dc:title\":\"The
+        inhibitory activity of gallic acid against DNA methylation: Application of
+        gallic acid on epigenetic therapy of human cancers\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85033609041\",\"eid\":\"2-s2.0-85033609041\",\"dc:title\":\"Effects
+        of age and sex on epigenetic modification induced by an acute physical exercise\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85029814743\",\"eid\":\"2-s2.0-85029814743\",\"dc:title\":\"Kinetics
+        of Mechanical Stretch-Induced Nitric Oxide Production in Rat Ventricular Cardiac
+        Myocytes\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85027343807\",\"eid\":\"2-s2.0-85027343807\",\"dc:title\":\"The
+        plasticity and stability of regulatory t cells during viral-induced inflammatory
+        lesions\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85025126257\",\"eid\":\"2-s2.0-85025126257\",\"dc:title\":\"The
+        role of epigenetics in renal ageing\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85020851846\",\"eid\":\"2-s2.0-85020851846\",\"dc:title\":\"Vitamin
+        e modifies high-fat diet-induced increase of DNA strand breaks, and changes
+        in expression and DNA methylation of DNMT1 and MLH1 in C57BL/6J male mice\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85009789133\",\"eid\":\"2-s2.0-85009789133\",\"dc:title\":\"Interleukin
+        6 induces cell proliferation of clear cell renal cell carcinoma by suppressing
+        hepaCAM via the STAT3-dependent up-regulation of DNMT1 or DNMT3b\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85013196824\",\"eid\":\"2-s2.0-85013196824\",\"dc:title\":\"Coordination
+        of cellular localization-dependent effects of sumoylation in regulating cardiovascular
+        and neurological diseases\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85024129605\",\"eid\":\"2-s2.0-85024129605\",\"dc:title\":\"Mutation-promoting
+        molecular networks of uncontrolled inflammation\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85021393381\",\"eid\":\"2-s2.0-85021393381\",\"dc:title\":\"Epigenetic
+        and transgenerational mechanisms in infection-mediated neurodevelopmental
+        disorders\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85020443760\",\"eid\":\"2-s2.0-85020443760\",\"dc:title\":\"Expression
+        of DNA methylation-related proteins in metastatic breast cancer\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85010060676\",\"eid\":\"2-s2.0-85010060676\",\"dc:title\":\"Prenatal
+        exposure to lipopolysaccharide alters renal DNA methyltransferase expression
+        in rat offspring\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84987650328\",\"eid\":\"2-s2.0-84987650328\",\"dc:title\":\"Transforming
+        growth factor-\u03B21 increases DNA methyltransferase 1 and 3a expression
+        through distinct post-transcriptional mechanisms in lung fibroblasts\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84984676988\",\"eid\":\"2-s2.0-84984676988\",\"dc:title\":\"Role
+        of interleukin-6 in cancer progression and therapeutic resistance\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84988372469\",\"eid\":\"2-s2.0-84988372469\",\"dc:title\":\"High
+        glucose-induced cytoplasmic translocation of Dnmt3a contributes to CTGF hypo-methylation
+        in mesangial cells\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84936804785\",\"eid\":\"2-s2.0-84936804785\",\"dc:title\":\"Hepatitis
+        viruses exploitation of host DNA methyltransferases functions\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85007518543\",\"eid\":\"2-s2.0-85007518543\",\"dc:title\":\"Differential
+        expression of the epigenetic methylation-related protein DNMT1 by breast cancer
+        molecular subtype and stromal histology\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84990226275\",\"eid\":\"2-s2.0-84990226275\",\"dc:title\":\"Global
+        DNA methylation and PTEN hypermethylation alterations in lung tissues from
+        human silicosis\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84983543557\",\"eid\":\"2-s2.0-84983543557\",\"dc:title\":\"The
+        interaction between the immune system and epigenetics in the etiology of autism
+        spectrum disorders\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84953292508\",\"eid\":\"2-s2.0-84953292508\",\"dc:title\":\"IL-8
+        suppresses E-cadherin expression in nasopharyngeal carcinoma cells by enhancing
+        E-cadherin promoter DNA methylation\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84930818999\",\"eid\":\"2-s2.0-84930818999\",\"dc:title\":\"Effects
+        of interleukin-6 on the bio-electric activity of rat atrial tissue under normal
+        conditions and during gradual stretching\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84938901562\",\"eid\":\"2-s2.0-84938901562\",\"dc:title\":\"Transcriptomic
+        and epigenetic analyses reveal a gender difference in aging-associated inflammation:
+        the Vitality 90+ study\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84949987133\",\"eid\":\"2-s2.0-84949987133\",\"dc:title\":\"Coordination
+        of AUF1 and miR-148a destabilizes DNA methyltransferase 1 mRNA under hypoxia
+        in endometriosis\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84911004173\",\"eid\":\"2-s2.0-84911004173\",\"dc:title\":\"IL-6
+        enriched lung cancer stem-like cell population by inhibition of cell cycle
+        regulators via DNMT1 upregulation\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/85005978194\",\"eid\":\"2-s2.0-85005978194\",\"dc:title\":\"Exercise-conditioned
+        plasma attenuates nuclear concentrations of DNA methyltransferase 3B in human
+        peripheral blood mononuclear cells\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84928696516\",\"eid\":\"2-s2.0-84928696516\",\"dc:title\":\"Exercise
+        and inflammation-related epigenetic modifications: Focus on DNA methylation\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84924360891\",\"eid\":\"2-s2.0-84924360891\",\"dc:title\":\"Do
+        all roads lead to Rome? The role of neuro-immune interactions before birth
+        in the programming of offspring obesity\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84919789643\",\"eid\":\"2-s2.0-84919789643\",\"dc:title\":\"Oxidative
+        stress and its significant roles in neurodegenerative diseases and cancer\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84927578539\",\"eid\":\"2-s2.0-84927578539\",\"dc:title\":\"Interleukin-6
+        mediated upregulation of CYP1B1 and CYP2E1 in colorectal cancer involves DNA
+        methylation, miR27b and STAT3\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84928169778\",\"eid\":\"2-s2.0-84928169778\",\"dc:title\":\"Medulative
+        effect of dihydroartemisinin on UCHL1 gene expression in human prostate cancer
+        PC-3 cells and its mechanism\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84899867358\",\"eid\":\"2-s2.0-84899867358\",\"dc:title\":\"Kaposi's
+        Sarcoma-Associated Herpesvirus (KSHV) vIL-6 promotes cell proliferation and
+        migration by upregulating DNMT1 via STAT3 activation\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84906047757\",\"eid\":\"2-s2.0-84906047757\",\"dc:title\":\"Dynamic
+        regulation of DNA methyltransferases in human oocytes and preimplantation
+        embryos after assisted reproductive technologies\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84899425108\",\"eid\":\"2-s2.0-84899425108\",\"dc:title\":\"The
+        alterations of IL-1beta, IL-6, and TGF-beta levels in hippocampal CA3 region
+        of chronic restraint stress rats after Electroacupuncture (EA) pretreatment\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84897952509\",\"eid\":\"2-s2.0-84897952509\",\"dc:title\":\"Treg
+        functional stability and its responsiveness to the microenvironment\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84885985469\",\"eid\":\"2-s2.0-84885985469\",\"dc:title\":\"Atopic
+        dermatitis-associated protein interaction network lead to new insights in
+        chronic sulfur mustard skin lesion mechanisms\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84921787443\",\"eid\":\"2-s2.0-84921787443\",\"dc:title\":\"A
+        reciprocal role of prostate cancer on stromal DNA damage\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84885790623\",\"eid\":\"2-s2.0-84885790623\",\"dc:title\":\"The
+        Tumor Suppressor Gene, RASSF1A, Is Essential for Protection against Inflammation
+        -Induced Injury\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84883151124\",\"eid\":\"2-s2.0-84883151124\",\"dc:title\":\"Mahanine
+        restores RASSF1A expression by down-regulating DNMT1 and DNMT3B in prostate
+        cancer cells\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84883141388\",\"eid\":\"2-s2.0-84883141388\",\"dc:title\":\"Identification
+        of cargo proteins specific for importin-\u03B2 with importin-\u03B1 applying
+        a stable isotope labeling by amino acids in cell culture (SILAC)-based in
+        vitro transport system\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84876990565\",\"eid\":\"2-s2.0-84876990565\",\"dc:title\":\"IL-6
+        Expression Regulates Tumorigenicity and Correlates with Prognosis in Bladder
+        Cancer\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84878388264\",\"eid\":\"2-s2.0-84878388264\",\"dc:title\":\"Epigenetic
+        regulation of DNMT1 gene in mouse model of asthma disease\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84879257346\",\"eid\":\"2-s2.0-84879257346\",\"dc:title\":\"Ethnic
+        differences in DNA methyltransferases expression in patients with systemic
+        lupus erythematosus\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84870208150\",\"eid\":\"2-s2.0-84870208150\",\"dc:title\":\"Epigenetic
+        mechanisms underlying diet-sourced compounds in the prevention and treatment
+        of gastrointestinal cancer\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84862820802\",\"eid\":\"2-s2.0-84862820802\",\"dc:title\":\"Gender
+        and the regulation of longevity: Implications for autoimmunity\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84858654396\",\"eid\":\"2-s2.0-84858654396\",\"dc:title\":\"Socio-economic
+        status is associated with epigenetic differences in the pSoBid cohort\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/82055171836\",\"eid\":\"2-s2.0-82055171836\",\"dc:title\":\"Human
+        native lipoprotein-induced de novo DNA methylation is associated with repression
+        of inflammatory genes in THP-1 macrophages\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/79960401628\",\"eid\":\"2-s2.0-79960401628\",\"dc:title\":\"Role
+        of DNA methyltransferase 1 in pharyngeal cancer related to treatment resistance\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84875831078\",\"eid\":\"2-s2.0-84875831078\",\"dc:title\":\"Epigenetic
+        modification of suppressor of cytokine signaling-3 in asthmatic mouse lung:
+        Role of interleukin-6\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84886188925\",\"eid\":\"2-s2.0-84886188925\",\"dc:title\":\"Isothiocyanates
+        and Polyphenols\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/78049440083\",\"eid\":\"2-s2.0-78049440083\",\"dc:title\":\"Nature
+        or nurture: Let food be your epigenetic medicine in chronic inflammatory disorders\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/77957122940\",\"eid\":\"2-s2.0-77957122940\",\"dc:title\":\"Transcriptional
+        and post-transcriptional control of DNA methyltransferase 3B is regulated
+        by phosphatidylinositol 3 kinase/Akt pathway in human hepatocellular carcinoma
+        cell lines\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/77956410126\",\"eid\":\"2-s2.0-77956410126\",\"dc:title\":\"Role
+        of DNA methyltransferase 1 in hormone-resistant prostate cancer\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/77954086999\",\"eid\":\"2-s2.0-77954086999\",\"dc:title\":\"The
+        role of epigenetics in aging and autoimmunity\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/77951188458\",\"eid\":\"2-s2.0-77951188458\",\"dc:title\":\"Upregulation
+        of DNA methyltransferase - mediated gene silencing, anchorage-independent
+        growth, and migration of colon cancer cells by interleukin-6\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/78149329845\",\"eid\":\"2-s2.0-78149329845\",\"dc:title\":\"Hypermethylation
+        of PTGER2 confers prostaglandin E<inf>2</inf> resistance in fibrotic fibroblasts
+        from humans and mice\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/84892037801\",\"eid\":\"2-s2.0-84892037801\",\"dc:title\":\"Intracellular
+        signaling for granulocytic and monocytic differentiation\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/73249115366\",\"eid\":\"2-s2.0-73249115366\",\"dc:title\":\"Crosstalk
+        in inflammation: The interplay of glucocorticoid receptor-based mechanisms
+        and kinases and phosphatases\"},{\"@_fa\": \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/70350771091\",\"eid\":\"2-s2.0-70350771091\",\"dc:title\":\"Generation
+        of an epigenetic signature by chronic hypoxia in prostate cells\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/70350452747\",\"eid\":\"2-s2.0-70350452747\",\"dc:title\":\"Chronic
+        inflammation, the tumor microenvironment and carcinogenesis\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/67650550499\",\"eid\":\"2-s2.0-67650550499\",\"dc:title\":\"Chronic
+        inflammation, the tumor microenvironment and carcinogenesis\"},{\"@_fa\":
+        \"true\", \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/67650360177\",\"eid\":\"2-s2.0-67650360177\",\"dc:title\":\"Epigenetic
+        control in rheumatoid arthritis synovial fibroblasts\"},{\"@_fa\": \"true\",
+        \"prism:url\":\"https://api.elsevier.com/content/abstract/scopus_id/49049117794\",\"eid\":\"2-s2.0-49049117794\",\"dc:title\":\"DNA
+        methyltransferase loading, but not de novo methylation, is an oocyte-autonomous
+        process stimulated by SCF signalling\"}]}}"
+    headers:
+      CF-Cache-Status: []
+      CF-RAY: []
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date: []
+      Server:
+      - cloudflare
+      Set-Cookie: []
+      Transfer-Encoding:
+      - chunked
+      Vary: []
+      allow:
+      - GET
+    status:
+      code: 200
+      message: OK
+version: 1

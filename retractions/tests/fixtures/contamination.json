@@ -1,0 +1,255 @@
+[
+  {
+    "model": "retractions.retractedpaper",
+    "pk": "3000",
+    "fields": {
+      "doi": null,
+      "title": "Tofu eating in children: a prospective randomized study.",
+      "artdate": null,
+      "journaldate": "2000-03-01",
+      "journaldate_granularity": "m",
+      "pub_types": "[\"Clinical Trial\", \"Journal Article\", \"Randomized Controlled Trial\", \"Retracted Publication\"]",
+      "issn": "0022-5223",
+      "journaltitle": "The Journal of Tofu Studies",
+      "created_at": "2018-03-07T02:44:10.721",
+      "updated_at": "2018-03-08T02:30:19.406",
+      "scopus_id": "0222227",
+      "journal_iso": "J. Tofu.",
+      "rct_group": "i",
+      "exclusion_reason": null,
+      "comparisondate": "2000-03-01",
+      "pmid": "2000007"
+    }
+  },
+
+  {
+    "model": "retractions.retractedpaper",
+    "pk": "3001",
+    "fields": {
+      "doi": null,
+      "title": "Tofu eating: a multi-centre study.",
+      "artdate": null,
+      "journaldate": "2002-05-01",
+      "journaldate_granularity": "m",
+      "pub_types": "[\"Clinical Trial\", \"Journal Article\", \"Randomized Controlled Trial\", \"Retracted Publication\"]",
+      "issn": "0022-5224",
+      "journaltitle": "The Journal of Tofu Studies",
+      "created_at": "2018-03-07T02:44:10.721",
+      "updated_at": "2018-03-08T02:30:19.406",
+      "scopus_id": "0222228",
+      "journal_iso": "J. Tofu.",
+      "rct_group": "c",
+      "exclusion_reason": null,
+      "comparisondate": "2002-05-01",
+      "pmid": "2000008"
+    }
+  },
+  {
+    "model": "retractions.retractedpaper",
+    "pk": "3002",
+    "fields": {
+      "doi": null,
+      "title": "Tofu eating: a systematic revieew.",
+      "artdate": null,
+      "journaldate": "2005-08-01",
+      "journaldate_granularity": "m",
+      "pub_types": "[\"Clinical Trial\", \"Journal Article\", \"Randomized Controlled Trial\", \"Retracted Publication\"]",
+      "issn": "0022-5224",
+      "journaltitle": "The Journal of Tofu Studies",
+      "created_at": "2018-03-07T02:44:10.721",
+      "updated_at": "2018-03-08T02:30:19.406",
+      "scopus_id": "0222229",
+      "journal_iso": "J. Tofu.",
+      "rct_group": "i",
+      "exclusion_reason": null,
+      "comparisondate": "2005-08-01",
+      "pmid": "2000009"
+    }
+  },
+
+  {
+    "model": "retractions.retractionnotice",
+    "pk": "4000",
+    "fields": {
+      "doi": null,
+      "title": "[The cases of plagiarism in \"Tofu\"].",
+      "artdate": null,
+      "journaldate": "2020-09-01",
+      "journaldate_granularity": "m",
+      "pub_types": "[\"Retraction of Publication\"]",
+      "issn": "0017-0011",
+      "journaltitle": "J. Tofu.",
+      "created_at": "2018-03-07T02:44:47.883",
+      "updated_at": "2018-03-07T02:44:47.885",
+      "comparisondate": "2020-09-01",
+      "papers": [2000007, 2000008, 2000009]
+    }
+  },
+
+  {
+    "model": "retractions.citingpaper",
+    "pk": 5000,
+    "fields": {
+      "doi": "tofudoi",
+      "title": "Empagliflozin limits Tofu eating",
+      "artdate": "2017-12-19",
+      "journaldate": "2017-01-01",
+      "journaldate_granularity": "y",
+      "pub_types": "[\"Journal Article\"]",
+      "issn": "1664042X",
+      "journaltitle": null,
+      "created_at": "2018-02-12T07:36:11.109",
+      "updated_at": "2018-02-12T07:36:11.111",
+      "scopus_id": "500000",
+      "paper": [2000007],
+      "journalname": "Frontiers in Tofu",
+      "prismcoverdate": "2017-12-19",
+      "comparisondate": "2017-12-19",
+      "cited_in_rct": "True"
+    }
+  },
+  {
+    "model": "retractions.citingpaper",
+    "pk": 5010,
+    "fields": {
+      "doi": "tofudoi",
+      "title": "Empagliflozin enhances Tofu eating",
+      "artdate": "2018-12-20",
+      "journaldate": "2019-01-05",
+      "journaldate_granularity": "d",
+      "pub_types": "[\"Journal Article\"]",
+      "issn": "1664042Y",
+      "journaltitle": null,
+      "created_at": "2018-02-12T08:36:11.109",
+      "updated_at": "2018-02-12T08:36:11.111",
+      "scopus_id": "500010",
+      "paper": [2000008],
+      "journalname": "Frontiers in Tofu",
+      "prismcoverdate": "2018-12-20",
+      "comparisondate": "2018-12-20",
+      "cited_in_rct": "True"
+    }
+  },
+  {
+    "model": "retractions.citingpaper",
+    "pk": 5020,
+    "fields": {
+      "doi": "tofudoi",
+      "title": "Empagliflozin interacts with Tofu eating",
+      "artdate": "2022-12-20",
+      "journaldate": "2023-01-05",
+      "journaldate_granularity": "d",
+      "pub_types": "[\"Journal Article\"]",
+      "issn": "1664042Y",
+      "journaltitle": null,
+      "created_at": "2018-02-12T08:36:11.109",
+      "updated_at": "2018-02-12T08:36:11.111",
+      "scopus_id": "500020",
+      "paper": [2000007, 2000008],
+      "journalname": "Frontiers in Tofu",
+      "prismcoverdate": "2022-12-20",
+      "comparisondate": "2022-12-20",
+      "cited_in_rct": "True"
+    }
+  },
+  {
+    "model": "retractions.citingpaper",
+    "pk": 5030,
+    "fields": {
+      "doi": "tofudoi",
+      "title": "Empagliflozin and Tofu eating in children",
+      "artdate": "2021-12-20",
+      "journaldate": "2021-12-05",
+      "journaldate_granularity": "d",
+      "pub_types": "[\"Journal Article\"]",
+      "issn": "1664042Y",
+      "journaltitle": null,
+      "created_at": "2018-02-12T08:36:11.109",
+      "updated_at": "2018-02-12T08:36:11.111",
+      "scopus_id": "500030",
+      "paper": [2000009],
+      "journalname": "Frontiers in Tofu",
+      "prismcoverdate": "2021-12-20",
+      "comparisondate": "2021-12-20",
+      "cited_in_rct": "True"
+    }
+  },
+
+  {
+    "model": "retractions.author",
+    "pk": 1000,
+    "fields": {
+      "auid": "1000",
+      "citing_papers": [500000, 500030],
+      "pairs": [1, 5]
+    }
+  },
+  {
+     "model": "retractions.authoralias",
+     "pk": 2000,
+     "fields": {
+       "author": 1000,
+       "email_address": "tofu@beans.com",
+       "surname": "Tofu",
+       "given_name": "Victor S."
+     }
+  },
+  {
+    "model": "retractions.author",
+    "pk": 1001,
+    "fields": {
+      "auid": "1001",
+      "citing_papers": [500000, 500010],
+      "pairs": [1, 2]
+    }
+  },
+  {
+     "model": "retractions.authoralias",
+     "pk": 2001,
+     "fields": {
+       "author": 1001,
+       "email_address": "bob@beans.com",
+       "surname": "Bob",
+       "given_name": "Bob"
+     }
+  },
+  {
+    "model": "retractions.author",
+    "pk": 1002,
+    "fields": {
+      "auid": "1002",
+      "citing_papers": [500000, 500020],
+      "pairs": [1, 3]
+    }
+  },
+  {
+     "model": "retractions.authoralias",
+     "pk": 2002,
+     "fields": {
+       "author": 1002,
+       "email_address": "alice@beans.com",
+       "surname": "Alice",
+       "given_name": "Alice"
+     }
+  },
+  {
+    "model": "retractions.author",
+    "pk": 1003,
+    "fields": {
+      "auid": "1003",
+      "citing_papers": [500010, 500020],
+      "pairs": [2, 4]
+    }
+  },
+  {
+     "model": "retractions.authoralias",
+     "pk": 2003,
+     "fields": {
+       "author": 1003,
+       "email_address": "carol@beans.com",
+       "surname": "Carol",
+       "given_name": "Carol"
+     }
+  }
+
+]

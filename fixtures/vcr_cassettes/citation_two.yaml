@@ -1,0 +1,366 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.elsevier.com/content/abstract/scopus_id/85050606598?httpAccept=application%2Fjson
+  response:
+    body:
+      string: '{"abstracts-retrieval-response": {"item": {"ait:process-info": {"ait:status":
+        {"@state": "update", "@type": "core", "@stage": "S300"}, "ait:date-delivered":
+        {"@day": "02", "@year": "2022", "@timestamp": "2022-04-02T00:32:21.000021-04:00",
+        "@month": "04"}, "ait:date-sort": {"@day": "01", "@year": "2018", "@month":
+        "07"}}, "xocs:meta": {"xocs:funding-list": {"@pui-match": "primary", "@has-funding-info":
+        "1", "xocs:funding": [{"xocs:funding-agency-matched-string": "MOTIE", "xocs:funding-agency-acronym":
+        "MOTIE", "xocs:funding-agency": "Ministry of Trade, Industry and Energy",
+        "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100003052",
+        "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"}, {"xocs:funding-agency-matched-string":
+        "Korea Institute for Advancement of Technology", "xocs:funding-agency-acronym":
+        "KIAT", "xocs:funding-agency": "Korea Institute for Advancement of Technology",
+        "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100003661",
+        "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"}], "xocs:funding-addon-generated-timestamp":
+        "2021-06-04T12:18:27.616Z", "xocs:funding-text": "This research was supported
+        by the Ministry of Trade, Industry & Energy (MOTIE), Korea Institute for Advancement
+        of Technology (KIAT) through the Encouragement Program for The Industries
+        of Economic Cooperation Region.", "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"}},
+        "bibrecord": {"head": {"author-group": [{"@auid": 0}, {"@auid": 1}, {"@auid":
+        2}, {"@auid": 3}, {"@auid": 4}, {"@auid": 5}, {"@auid": 6}, {"@auid": 7},
+        {"@auid": 8}, {"@auid": 9}, {"@auid": 10}, {"@auid": 11}, {"@auid": 12}]}}},
+        "affiliation": [], "coredata": {"srctype": "j", "eid": "2-s2.0-85050606598",
+        "dc:description": "The anti-melanogenic effects of the extract of Angelica
+        tenuissima (AT) root and the extract of AT root fermented by Aspergillus oryzae
+        (FAT) were investigated. These effects were determined by measuring the inhibitory
+        activity of AT and FAT on melanin production in B16F10 melanocytes and with
+        in vitro tyrosinase activity assays. The AT extract inhibited melanin production
+        at concentrations above 250 \u03bcg/ml, and this inhibitory effect was significantly
+        enhanced by the fermentation process with A. oryzae. HPLC analysis resulted
+        in the isolation of two active compounds from both the AT and FAT extracts.
+        Their chemical structures were identified as decursin and Z-ligustilide through
+        comparison with previously reported NMR data. The decursin and Z-ligustilide
+        contents were increased in the FAT extract and could be responsible for its
+        enhanced inhibitory effects on melanin production and tyrosinase activity
+        compared with that of the AT extract.", "pubmed-id": "29913552", "prism:coverDate":
+        "2018-07-01", "prism:aggregationType": "Journal", "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85050606598",
+        "dc:creator": {}, "link": [{"@_fa": "true", "@rel": "self", "@href": "https://api.elsevier.com/content/abstract/scopus_id/85050606598"},
+        {"@_fa": "true", "@rel": "scopus", "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85050606598&origin=inward"},
+        {"@_fa": "true", "@rel": "scopus-citedby", "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85050606598&origin=inward"}],
+        "source-id": "16086", "citedby-count": "7", "prism:volume": "28", "subtype":
+        "ar", "dc:title": "Decursin and Z-ligustilide in angelica tenuissima root
+        extract fermented by aspergillus oryzae display anti-pigment activity in melanoma
+        cells", "openaccess": "1", "prism:issn": "17388872 10177825", "publishercopyright":
+        "\u00a9 2018 by The Korean Society for Microbiology and Biotechnology.", "prism:issueIdentifier":
+        "7", "subtypeDescription": "Article", "prism:publicationName": "Journal of
+        Microbiology and Biotechnology", "prism:pageRange": "1061-1067", "prism:endingPage":
+        "1067", "openaccessFlag": "true", "prism:doi": "10.4014/jmb.1812.02044", "prism:startingPage":
+        "1061", "dc:identifier": "SCOPUS_ID:85050606598", "dc:publisher": "Korean
+        Society for Microbiology and Biotechnologyjmb@jmb.or.kr"}, "idxterms": {"mainterm":
+        [{"$": "Angelica root extract", "@weight": "a", "@candidate": "n"}, {"$":
+        "beta actin", "@weight": "b", "@candidate": "n"}, {"$": "decursin", "@weight":
+        "a", "@candidate": "y"}, {"$": "intermedin", "@weight": "b", "@candidate":
+        "n"}, {"$": "ligustilide", "@weight": "a", "@candidate": "n"}, {"$": "monophenol
+        monooxygenase", "@weight": "b", "@candidate": "n"}, {"$": "unclassified drug",
+        "@weight": "b", "@candidate": "n"}, {"$": "z ligustilide", "@weight": "a",
+        "@candidate": "y"}, {"$": "benzopyran derivative", "@weight": "b", "@candidate":
+        "n"}, {"$": "butyric acid derivative", "@weight": "b", "@candidate": "n"},
+        {"$": "decursin", "@weight": "b", "@candidate": "y"}, {"$": "enzyme inhibitor",
+        "@weight": "b", "@candidate": "n"}, {"$": "gamma butyrolactone", "@weight":
+        "b", "@candidate": "n"}, {"$": "ligustilide", "@weight": "b", "@candidate":
+        "n"}, {"$": "melanin", "@weight": "b", "@candidate": "n"}, {"$": "monophenol
+        monooxygenase", "@weight": "b", "@candidate": "n"}, {"$": "plant extract",
+        "@weight": "b", "@candidate": "n"}, {"$": "Angelica", "@weight": "a", "@candidate":
+        "n"}, {"$": "Angelica tenuissima", "@weight": "a", "@candidate": "y"}, {"$":
+        "animal cell", "@weight": "b", "@candidate": "n"}, {"$": "Article", "@weight":
+        "b", "@candidate": "n"}, {"$": "Aspergillus oryzae", "@weight": "a", "@candidate":
+        "n"}, {"$": "bioavailability", "@weight": "b", "@candidate": "n"}, {"$": "cell
+        adhesion assay", "@weight": "b", "@candidate": "n"}, {"$": "cell culture",
+        "@weight": "b", "@candidate": "n"}, {"$": "chemical structure", "@weight":
+        "b", "@candidate": "n"}, {"$": "extractive fermentation", "@weight": "a",
+        "@candidate": "n"}, {"$": "high performance liquid chromatography", "@weight":
+        "b", "@candidate": "n"}, {"$": "immunoblotting", "@weight": "b", "@candidate":
+        "n"}, {"$": "in vitro study", "@weight": "b", "@candidate": "n"}, {"$": "inhibitory
+        concentration", "@weight": "b", "@candidate": "n"}, {"$": "melanocyte", "@weight":
+        "b", "@candidate": "n"}, {"$": "melanogenesis", "@weight": "b", "@candidate":
+        "n"}, {"$": "melanoma cell", "@weight": "a", "@candidate": "n"}, {"$": "mouse",
+        "@weight": "b", "@candidate": "n"}, {"$": "nonhuman", "@weight": "b", "@candidate":
+        "n"}, {"$": "analogs and derivatives", "@weight": "a", "@candidate": "y"},
+        {"$": "Angelica", "@weight": "b", "@candidate": "n"}, {"$": "animal", "@weight":
+        "b", "@candidate": "n"}, {"$": "Aspergillus oryzae", "@weight": "b", "@candidate":
+        "n"}, {"$": "cell culture technique", "@weight": "b", "@candidate": "n"},
+        {"$": "cell line", "@weight": "b", "@candidate": "n"}, {"$": "chemistry",
+        "@weight": "b", "@candidate": "n"}, {"$": "drug effect", "@weight": "b", "@candidate":
+        "n"}, {"$": "experimental melanoma", "@weight": "b", "@candidate": "n"}, {"$":
+        "fermentation", "@weight": "b", "@candidate": "n"}, {"$": "fermented product",
+        "@weight": "b", "@candidate": "n"}, {"$": "isolation and purification", "@weight":
+        "b", "@candidate": "n"}, {"$": "medicinal plant", "@weight": "b", "@candidate":
+        "n"}, {"$": "metabolism", "@weight": "b", "@candidate": "n"}, {"$": "microbiology",
+        "@weight": "b", "@candidate": "n"}, {"$": "plant root", "@weight": "b", "@candidate":
+        "n"}, {"$": "4-Butyrolactone", "@weight": "b", "@candidate": "n"}, {"$": "Angelica",
+        "@weight": "b", "@candidate": "n"}, {"$": "Animals", "@weight": "b", "@candidate":
+        "n"}, {"$": "Aspergillus oryzae", "@weight": "b", "@candidate": "n"}, {"$":
+        "Benzopyrans", "@weight": "b", "@candidate": "n"}, {"$": "Butyrates", "@weight":
+        "b", "@candidate": "n"}, {"$": "Cell Culture Techniques", "@weight": "b",
+        "@candidate": "n"}, {"$": "Cell Line", "@weight": "b", "@candidate": "n"},
+        {"$": "Enzyme Inhibitors", "@weight": "b", "@candidate": "n"}, {"$": "Fermentation",
+        "@weight": "b", "@candidate": "n"}, {"$": "Fermented Foods", "@weight": "b",
+        "@candidate": "n"}, {"$": "Melanins", "@weight": "b", "@candidate": "n"},
+        {"$": "Melanocytes", "@weight": "b", "@candidate": "n"}, {"$": "Melanoma,
+        Experimental", "@weight": "b", "@candidate": "n"}, {"$": "Mice", "@weight":
+        "b", "@candidate": "n"}, {"$": "Monophenol Monooxygenase", "@weight": "b",
+        "@candidate": "n"}, {"$": "Plant Extracts", "@weight": "b", "@candidate":
+        "n"}, {"$": "Plant Roots", "@weight": "b", "@candidate": "n"}, {"$": "Plants,
+        Medicinal", "@weight": "b", "@candidate": "n"}]}, "language": {"@xml:lang":
+        "eng"}, "authkeywords": {"author-keyword": [{"@_fa": "true", "$": "Angelica
+        tenuissima"}, {"@_fa": "true", "$": "Anti-melanogenic activity"}, {"@_fa":
+        "true", "$": "Aspergillus oryzae"}, {"@_fa": "true", "$": "Decursin"}, {"@_fa":
+        "true", "$": "Fermentation"}, {"@_fa": "true", "$": "Z-ligustilide"}]}, "subject-areas":
+        {"subject-area": [{"@_fa": "true", "$": "Biotechnology", "@code": "1305",
+        "@abbrev": "BIOC"}, {"@_fa": "true", "$": "Applied Microbiology and Biotechnology",
+        "@code": "2402", "@abbrev": "IMMU"}]}, "authors": {}}}'
+    headers:
+      CF-Cache-Status: []
+      CF-RAY: []
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date: []
+      Last-Modified:
+      - Wed, 06 Apr 2022 19:37:36 GMT
+      Server:
+      - cloudflare
+      Set-Cookie: []
+      Transfer-Encoding:
+      - chunked
+      Vary: []
+      allow:
+      - GET
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&field=aid&term=10.4014/jmb.1812.02044
+  response:
+    body:
+      string: '{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["29913552"],"translationset":[],"querytranslation":"\"10
+        4014 jmb 1812 02044\"[Publisher ID]"}}
+
+        '
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      CF-Cache-Status: []
+      CF-RAY: []
+      Cache-Control:
+      - private
+      Connection:
+      - Keep-Alive
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date: []
+      Keep-Alive:
+      - timeout=4, max=40
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Server:
+      - Finatra
+      Set-Cookie: []
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary: []
+      content-encoding:
+      - gzip
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&rettype=abstract&id=29913552
+  response:
+    body:
+      string: '<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January
+        2023//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_230101.dtd">
+
+        <PubmedArticleSet>
+
+        <PubmedArticle><MedlineCitation Status="MEDLINE" Owner="NLM"><PMID Version="1">29913552</PMID><DateCompleted><Year>2018</Year><Month>11</Month><Day>02</Day></DateCompleted><DateRevised><Year>2021</Year><Month>12</Month><Day>04</Day></DateRevised><Article
+        PubModel="Print"><Journal><ISSN IssnType="Electronic">1738-8872</ISSN><JournalIssue
+        CitedMedium="Internet"><Volume>28</Volume><Issue>7</Issue><PubDate><Year>2018</Year><Month>Jul</Month><Day>28</Day></PubDate></JournalIssue><Title>Journal
+        of microbiology and biotechnology</Title><ISOAbbreviation>J Microbiol Biotechnol</ISOAbbreviation></Journal><ArticleTitle>Decursin
+        and Z-Ligustilide in <i>Angelica tenuissima</i> Root Extract Fermented by
+        <i>Aspergillus oryzae</i> Display Anti-Pigment Activity in Melanoma Cells.</ArticleTitle><Pagination><StartPage>1061</StartPage><EndPage>1067</EndPage><MedlinePgn>1061-1067</MedlinePgn></Pagination><ELocationID
+        EIdType="doi" ValidYN="Y">10.4014/jmb.1812.02044</ELocationID><Abstract><AbstractText>The
+        anti-melanogenic effects of the extract of <i>Angelica tenuissima</i> (AT)
+        root and the extract of AT root fermented by <i>Aspergillus oryzae</i> (FAT)
+        were investigated. These effects were determined by measuring the inhibitory
+        activity of AT and FAT on melanin production in B16F10 melanocytes and with
+        in vitro tyrosinase activity assays. The AT extract inhibited melanin production
+        at concentrations above 250 &#956;g/ml, and this inhibitory effect was significantly
+        enhanced by the fermentation process with <i>A. oryzae</i>. HPLC analysis
+        resulted in the isolation of two active compounds from both the AT and FAT
+        extracts. Their chemical structures were identified as decursin and Z-ligustilide
+        through comparison with previously reported NMR data. The decursin and Z-ligustilide
+        contents were increased in the FAT extract and could be responsible for its
+        enhanced inhibitory effects on melanin production and tyrosinase activity
+        compared with that of the AT extract.</AbstractText></Abstract><AuthorList
+        CompleteYN="Y"><Author ValidYN="Y"><LastName>Last Name 0</LastName><ForeName>First
+        Name 0</ForeName><Initials>Initials 0</Initials><AffiliationInfo><Affiliation>Affiliation
+        0</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 1</LastName><ForeName>First Name 1</ForeName><Initials>Initials 1</Initials><AffiliationInfo><Affiliation>Affiliation
+        1</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 2</LastName><ForeName>First Name 2</ForeName><Initials>Initials 2</Initials><AffiliationInfo><Affiliation>Affiliation
+        2</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 3</LastName><ForeName>First Name 3</ForeName><Initials>Initials 3</Initials><AffiliationInfo><Affiliation>Affiliation
+        3</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 4</LastName><ForeName>First Name 4</ForeName><Initials>Initials 4</Initials><AffiliationInfo><Affiliation>Affiliation
+        4</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 5</LastName><ForeName>First Name 5</ForeName><Initials>Initials 5</Initials><AffiliationInfo><Affiliation>Affiliation
+        5</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 6</LastName><ForeName>First Name 6</ForeName><Initials>Initials 6</Initials><AffiliationInfo><Affiliation>Affiliation
+        6</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 7</LastName><ForeName>First Name 7</ForeName><Initials>Initials 7</Initials><AffiliationInfo><Affiliation>Affiliation
+        7</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 8</LastName><ForeName>First Name 8</ForeName><Initials>Initials 8</Initials><AffiliationInfo><Affiliation>Affiliation
+        8</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 9</LastName><ForeName>First Name 9</ForeName><Initials>Initials 9</Initials><AffiliationInfo><Affiliation>Affiliation
+        9</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 10</LastName><ForeName>First Name 10</ForeName><Initials>Initials 10</Initials><AffiliationInfo><Affiliation>Affiliation
+        10</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 11</LastName><ForeName>First Name 11</ForeName><Initials>Initials 11</Initials><AffiliationInfo><Affiliation>Affiliation
+        11</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Last
+        Name 12</LastName><ForeName>First Name 12</ForeName><Initials>Initials 12</Initials><AffiliationInfo><Affiliation>Affiliation
+        12</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType
+        UI="D016428">Journal Article</PublicationType></PublicationTypeList></Article><MedlineJournalInfo><Country>Korea
+        (South)</Country><MedlineTA>J Microbiol Biotechnol</MedlineTA><NlmUniqueID>9431852</NlmUniqueID><ISSNLinking>1017-7825</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="D001578">Benzopyrans</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="D002087">Butyrates</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="D004791">Enzyme Inhibitors</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="D008543">Melanins</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance
+        UI="D010936">Plant Extracts</NameOfSubstance></Chemical><Chemical><RegistryNumber>4431-01-0</RegistryNumber><NameOfSubstance
+        UI="C027820">ligustilide</NameOfSubstance></Chemical><Chemical><RegistryNumber>E95RTO3YQR</RegistryNumber><NameOfSubstance
+        UI="C101278">decursin</NameOfSubstance></Chemical><Chemical><RegistryNumber>EC
+        1.14.18.1</RegistryNumber><NameOfSubstance UI="D014442">Monophenol Monooxygenase</NameOfSubstance></Chemical><Chemical><RegistryNumber>OL659KIY4X</RegistryNumber><NameOfSubstance
+        UI="D015107">4-Butyrolactone</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName
+        UI="D015107" MajorTopicYN="N">4-Butyrolactone</DescriptorName><QualifierName
+        UI="Q000031" MajorTopicYN="Y">analogs &amp; derivatives</QualifierName><QualifierName
+        UI="Q000737" MajorTopicYN="N">chemistry</QualifierName><QualifierName UI="Q000302"
+        MajorTopicYN="N">isolation &amp; purification</QualifierName><QualifierName
+        UI="Q000378" MajorTopicYN="N">metabolism</QualifierName><QualifierName UI="Q000494"
+        MajorTopicYN="N">pharmacology</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D029969" MajorTopicYN="N">Angelica</DescriptorName><QualifierName UI="Q000737"
+        MajorTopicYN="Y">chemistry</QualifierName><QualifierName UI="Q000382" MajorTopicYN="N">microbiology</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D000818" MajorTopicYN="N">Animals</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D001236" MajorTopicYN="N">Aspergillus oryzae</DescriptorName><QualifierName
+        UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D001578" MajorTopicYN="N">Benzopyrans</DescriptorName><QualifierName UI="Q000737"
+        MajorTopicYN="N">chemistry</QualifierName><QualifierName UI="Q000302" MajorTopicYN="N">isolation
+        &amp; purification</QualifierName><QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName><QualifierName
+        UI="Q000494" MajorTopicYN="Y">pharmacology</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D002087" MajorTopicYN="N">Butyrates</DescriptorName><QualifierName UI="Q000737"
+        MajorTopicYN="N">chemistry</QualifierName><QualifierName UI="Q000302" MajorTopicYN="N">isolation
+        &amp; purification</QualifierName><QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName><QualifierName
+        UI="Q000494" MajorTopicYN="Y">pharmacology</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D018929" MajorTopicYN="N">Cell Culture Techniques</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D002460" MajorTopicYN="N">Cell Line</DescriptorName><QualifierName UI="Q000187"
+        MajorTopicYN="N">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D004791" MajorTopicYN="N">Enzyme Inhibitors</DescriptorName><QualifierName
+        UI="Q000302" MajorTopicYN="N">isolation &amp; purification</QualifierName><QualifierName
+        UI="Q000494" MajorTopicYN="N">pharmacology</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D005285" MajorTopicYN="N">Fermentation</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D000074421" MajorTopicYN="N">Fermented Foods</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D008543" MajorTopicYN="N">Melanins</DescriptorName><QualifierName UI="Q000378"
+        MajorTopicYN="N">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D008544" MajorTopicYN="N">Melanocytes</DescriptorName><QualifierName UI="Q000187"
+        MajorTopicYN="N">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D008546" MajorTopicYN="N">Melanoma, Experimental</DescriptorName><QualifierName
+        UI="Q000188" MajorTopicYN="N">drug therapy</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D051379" MajorTopicYN="N">Mice</DescriptorName></MeshHeading><MeshHeading><DescriptorName
+        UI="D014442" MajorTopicYN="N">Monophenol Monooxygenase</DescriptorName><QualifierName
+        UI="Q000032" MajorTopicYN="N">analysis</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D010936" MajorTopicYN="N">Plant Extracts</DescriptorName><QualifierName
+        UI="Q000737" MajorTopicYN="N">chemistry</QualifierName><QualifierName UI="Q000494"
+        MajorTopicYN="Y">pharmacology</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D018517" MajorTopicYN="N">Plant Roots</DescriptorName><QualifierName UI="Q000737"
+        MajorTopicYN="Y">chemistry</QualifierName><QualifierName UI="Q000382" MajorTopicYN="N">microbiology</QualifierName></MeshHeading><MeshHeading><DescriptorName
+        UI="D010946" MajorTopicYN="N">Plants, Medicinal</DescriptorName><QualifierName
+        UI="Q000737" MajorTopicYN="Y">chemistry</QualifierName><QualifierName UI="Q000382"
+        MajorTopicYN="N">microbiology</QualifierName></MeshHeading></MeshHeadingList><KeywordList
+        Owner="NOTNLM"><Keyword MajorTopicYN="N">Angelica tenuissimae</Keyword><Keyword
+        MajorTopicYN="N">Aspergillus oryzae</Keyword><Keyword MajorTopicYN="N">Z-ligustilide</Keyword><Keyword
+        MajorTopicYN="N">anti-melanogenic activity</Keyword><Keyword MajorTopicYN="N">decursin</Keyword><Keyword
+        MajorTopicYN="N">fermentation</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate
+        PubStatus="pubmed"><Year>2018</Year><Month>6</Month><Day>20</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate
+        PubStatus="medline"><Year>2018</Year><Month>11</Month><Day>6</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate
+        PubStatus="entrez"><Year>2018</Year><Month>6</Month><Day>19</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId
+        IdType="pubmed">29913552</ArticleId><ArticleId IdType="doi">10.4014/jmb.1812.02044</ArticleId><ArticleId
+        IdType="pii">10.4014/jmb.1812.02044</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - X-RateLimit-Limit,X-RateLimit-Remaining
+      CF-Cache-Status: []
+      CF-RAY: []
+      Cache-Control:
+      - private
+      Connection:
+      - Keep-Alive
+      Content-Security-Policy:
+      - upgrade-insecure-requests
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Date: []
+      Keep-Alive:
+      - timeout=4, max=40
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Server:
+      - Finatra
+      Set-Cookie: []
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary: []
+      content-encoding:
+      - gzip
+    status:
+      code: 200
+      message: OK
+version: 1
