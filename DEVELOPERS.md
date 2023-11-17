@@ -41,7 +41,7 @@ psql -U postgres -h localhost -c "CREATE DATABASE retractobot"
 On Linux, you'll need to create the user with relevant permissions:
 ```
 psql -U postgres -h localhost -c "
-CREATE ROLE retractobot PASSWORD 'PASSWORD HERE' NOSUPERUSER CREATEDB;
+CREATE ROLE retractobot PASSWORD 'PASSWORD HERE' NOSUPERUSER CREATEDB LOGIN;
 GRANT ALL PRIVILEGES on database retractobot to retractobot;
 "
 ```
@@ -183,7 +183,7 @@ elsewhere for checking in different email clients.
 #### Do initial live batch
 
 This is the first pilot send of real mails. We do the run for the first 100
-authors (ordered by AUID). 
+authors (ordered by AUID).
 
 This command doesn't do any logging, as it is the raw internal command
 (so we can set limit).
