@@ -107,3 +107,4 @@ venv/
 debug-last-sent-mails.mbox
 live-all-sent-mails.mbox
 environment
+**/*.log
