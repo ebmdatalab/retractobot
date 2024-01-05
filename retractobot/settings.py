@@ -51,6 +51,7 @@ USE_TZ = False
 # Email config
 ANYMAIL = {
     "MAILGUN_API_KEY": env.str("RETR_MAILGUN_API_KEY"),
+    "MAILGUN_API_URL": "https://api.eu.mailgun.net/v3",
     "MAILGUN_SENDER_DOMAIN": "retracted.net",
 }
 EMAIL_BACKEND = "anymail.backends.mailgun.EmailBackend"
