@@ -303,7 +303,7 @@ class Command(BaseCommand):
 
         body += """<hr>"""
 
-        body += """<p><small>In accordance with the European Union General Data
+        body += """<p><small>In accordance with the General Data
         Protection Regulation (GDPR) we would like to inform you of the
         following information. We are using publicly accessible bibliographic
         information from the PubMed and Scopus databases. We are processing
