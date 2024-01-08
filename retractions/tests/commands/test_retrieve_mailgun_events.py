@@ -51,7 +51,7 @@ def fake_get(message_id, test_case):
             "headers": {
                 "to": "Victor S. Tofu <tofu@beans.com>",
                 "message-id": message_id,
-                "from": '"Ben Goldacre, University of Oxford" <ben@retracted.net>',
+                "from": '"Ben Goldacre, University of Oxford" <team@retracted.net>',
                 "subject": """RetractoBot: You cited a retracted paper in your
                               Frontiers in Tofu paper published in 2018""",
             },

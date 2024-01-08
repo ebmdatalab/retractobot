@@ -194,7 +194,7 @@ class Command(BaseCommand):
         msg = OurEmail(
             subject=subject,
             body=body_plaintext,
-            from_email='"The RetractoBot Team, University of Oxford" <ben@retracted.net>',
+            from_email='"The RetractoBot Team, University of Oxford" <team@retracted.net>',
             to=to_emails,
         )
         msg.attach_alternative(body, "text/html")
