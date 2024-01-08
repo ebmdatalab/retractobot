@@ -29,7 +29,7 @@ class Command(BaseCommand):
             logging.info("Using local cache for Scopus API calls")
             requests_cache.install_cache("cache/get_scopus_citations_cache")
 
-        retracted_papers = RetractedPaper.objects.all()
+        retracted_papers = RetractedPaper.objects.order_by("pmid")
         total_papers = retracted_papers.count()
         logging.info("Total papers to ensure have citations for: %d", total_papers)
 
@@ -127,7 +127,11 @@ class Command(BaseCommand):
 
     def _get_citations_recursively(self, url, citations):
         r = fetch_utils.fetch_url(url, is_scopus=True)
-        res = r.json()
+        try:
+            res = r.json()
+        except AttributeError:
+            logging.warning("Skipping %s", url)
+            return []
         citations = self._get_citations_from_json(res)
         if "search-results" in res and res["search-results"]["link"]:
             logging.info(
