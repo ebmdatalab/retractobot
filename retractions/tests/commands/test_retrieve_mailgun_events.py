@@ -40,7 +40,7 @@ def fake_get(message_id, test_case):
     def _inner_fake_get(url, auth):
         """Overrides requests.get to pretends to be the MailGun API in a limited
         way"""
-        base_url = "https://api.mailgun.net/v3/retracted.net/events"
+        base_url = "https://api.eu.mailgun.net/v3/retracted.net/events"
         second_url = base_url + "/2"
         third_url = base_url + "/3"
         last_url = second_url
@@ -51,7 +51,7 @@ def fake_get(message_id, test_case):
             "headers": {
                 "to": "Victor S. Tofu <tofu@beans.com>",
                 "message-id": message_id,
-                "from": '"Ben Goldacre, University of Oxford" <ben@retracted.net>',
+                "from": '"Ben Goldacre, University of Oxford" <team@retracted.net>',
                 "subject": """RetractoBot: You cited a retracted paper in your
                               Frontiers in Tofu paper published in 2018""",
             },

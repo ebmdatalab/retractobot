@@ -194,7 +194,7 @@ class Command(BaseCommand):
         msg = OurEmail(
             subject=subject,
             body=body_plaintext,
-            from_email='"The RetractoBot Team, University of Oxford" <ben@retracted.net>',
+            from_email='"The RetractoBot Team, University of Oxford" <team@retracted.net>',
             to=to_emails,
         )
         msg.attach_alternative(body, "text/html")
@@ -249,20 +249,22 @@ class Command(BaseCommand):
             body += "</tr>"
         body += "</table>"
         # Collect information about whether the mail was useful.
-        body += """<p>We run the <a href="https://retracted.net/">RetractoBot</a>
-            research project, which aims to reduce the propagation of flawed
-            research in the biomedical literature by reducing citations of
-            retracted research papers.</p>
+        body += """<p>The <a href="https://retracted.net/">RetractoBot</a>
+            research project is a randomised controlled trial (RCT) which
+            aims to see whether sending emails to authors who cited retracted
+            biomedical research papers impacts future citations of retracted
+            papers.</p>
 
             <p><strong>Was this information useful?</strong><br/>
             Please click below to let us know whether you knew about the
             retraction.
 
-            <br>Your voluntary click, below, is taken as consent for your anonymous
-            response to be included in our analysis. If you have any other
-            comments, please reply to this email; your voluntary reply is taken
-            as consent for your comments to be used anonymously in our
-            qualitative analysis of the project unless otherwise noted."""
+            <br>Your voluntary click, below, is taken as consent for your
+            response to be included in our aggregated analysis. If you have any
+            other comments, please reply to this email; your voluntary reply is
+            taken as consent for us to include these comments in further
+            qualitative analysis for the project, with identifiable information
+            removed, unless otherwise noted in your response."""
 
         body += """</p>"""
         if total_papers > 1:
@@ -301,15 +303,19 @@ class Command(BaseCommand):
 
         body += """<hr>"""
 
-        body += """<p><small>In accordance with the European Union General Data
-        Protection Regulation 2016 we would like to inform you of the following
-        information. We are using publicly accessible bibliographic information
-        from the PubMed and Scopus databases. We are processing only your name
-        and email address associated with your Scopus Author ID, which we
-        obtained from Scopus only to send you this message. <em>If you would
-        like to stop receiving emails from RetractoBot at this email address,
-        choose the 'unsubscribe' link below. If you would like to correct your
-        data on PubMed or Scopus, please contact those organisations
+        body += """<p><small>In accordance with the General Data
+        Protection Regulation (GDPR) we would like to inform you of the
+        following information. We are using publicly accessible bibliographic
+        information from the PubMed and Scopus databases. We are processing
+        only your name and email address associated with your Scopus Author ID,
+        which we obtained from Scopus only to send you this message. The data
+        is processed by Mailgun to send you this email and DigitalOcean to
+        store our dataset, but control of the data is retained by our project
+        team members. Your name and email address will be deleted from our
+        dataset after project completion. <em>If you would like to stop
+        receiving emails from RetractoBot at this email address, choose the
+        'unsubscribe' link below. If you would like to correct your data on
+        PubMed or Scopus, please contact those organisations
         directly.</em></small></p>"""
 
         return (subject, body)

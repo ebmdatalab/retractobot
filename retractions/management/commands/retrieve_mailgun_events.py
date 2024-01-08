@@ -20,7 +20,7 @@ class Command(BaseCommand):
         MAILGUN_API_KEY = setup.get_env_setting("RETR_MAILGUN_API_KEY")
 
         # Get all events available
-        url = "https://api.mailgun.net/v3/retracted.net/events"
+        url = "https://api.eu.mailgun.net/v3/retracted.net/events"
 
         # Loop through pages of events
         while True:

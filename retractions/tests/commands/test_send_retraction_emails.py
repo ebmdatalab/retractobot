@@ -41,7 +41,7 @@ class CitedAfterTestCase(TransactionTestCase):
         self.assertEqual(email.track_clicks, True)
         self.assertEqual(
             email.from_email,
-            '"The RetractoBot Team, University of Oxford" <ben@retracted.net>',
+            '"The RetractoBot Team, University of Oxford" <team@retracted.net>',
         )
         self.assertEqual(email.recentest_citing_paper_id, "500000")
         html = email.alternatives[0][0]
@@ -93,7 +93,7 @@ class TwoRetractedPapersTestCase(TransactionTestCase):
         self.assertEqual(email.track_clicks, True)
         self.assertEqual(
             email.from_email,
-            '"The RetractoBot Team, University of Oxford" <ben@retracted.net>',
+            '"The RetractoBot Team, University of Oxford" <team@retracted.net>',
         )
         self.assertEqual(email.recentest_citing_paper_id, "500010")
         html = email.alternatives[0][0]
