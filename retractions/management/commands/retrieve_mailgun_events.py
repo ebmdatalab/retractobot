@@ -35,8 +35,12 @@ class Command(BaseCommand):
 
             # Loop through them
             for i in list(items):
-                message_id = i["message"]["headers"]["message-id"]
                 event = i["event"]
+                try:
+                    message_id = i["message"]["headers"]["message-id"]
+                except KeyError:
+                    logging.warning(f"{i['event']} has no message id, skipped")
+                    continue
                 when = datetime.datetime.utcfromtimestamp(i["timestamp"])
                 url = None
                 if event == "clicked":
@@ -109,6 +113,8 @@ class Command(BaseCommand):
                             or when > mail_sent.clicked_other
                         ):
                             mail_sent.clicked_other = when
+                elif event == "failed":
+                    continue
                 else:
                     logging.warning("Unknown event '%s'" % event)
 
