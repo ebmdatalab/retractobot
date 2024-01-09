@@ -205,6 +205,17 @@ increased to double.
 just run send_retraction_emails --live-run --limit=200 -v 3
 ```
 
+#### Retrieve mailgun events
+
+Set up a cronjob so that mailgun logs will be added to the database every day.
+Mailgun logs are stored for a few days, but in case the server is down, we do
+not want to skip a day.
+
+This would get the logs once a day at 4am
+```sh
+00 04 * * * /home/retractobot-project/retractobot/deploy/get_mailgun_events.sh
+```
+
 ## After the trial
 Once the follow-up time has ended
 
