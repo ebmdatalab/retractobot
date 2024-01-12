@@ -113,6 +113,6 @@ fix: devenv
     $BIN/ruff --fix .
 
 
-# Run the dev project
-run *args: devenv
+# Run the project
+run *args: prodenv
     $BIN/python manage.py {{ args }}
