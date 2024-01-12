@@ -159,12 +159,18 @@ class Command(BaseCommand):
                             (author_alias.full_name(), self.test_email)
                         )
                     else:
-                        to_email = email.utils.formataddr(
-                            (
-                                author_alias.full_name(),
-                                author_alias.email_address,
+                        try:
+                            to_email = email.utils.formataddr(
+                                (
+                                    author_alias.full_name(),
+                                    author_alias.email_address,
+                                )
                             )
-                        )
+                        except UnicodeEncodeError:
+                            logging.warning(
+                                "Skipping %s, invalid ascii", author_alias.email_address
+                            )
+                            continue
                     to_emails.append(to_email)
 
         # If no emails to send to, skip this author
