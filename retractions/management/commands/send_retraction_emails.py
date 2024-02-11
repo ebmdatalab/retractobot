@@ -1,12 +1,14 @@
 import email.utils
 import logging
 import mailbox
+import pathlib
 
 import anymail.exceptions
 import anymail.utils
 import django.core.exceptions
 import django.db
 import html2text
+import pandas
 from django.core.mail import EmailMultiAlternatives
 from django.core.management.base import BaseCommand
 
@@ -59,6 +61,11 @@ class Command(BaseCommand):
             help="Maximum number of authors to send to",
             default=None,
         )
+        parser.add_argument(
+            "--undeliverable-file",
+            type=pathlib.Path,
+            help="File with validation result",
+        )
 
     def handle(self, *args, **options):
         setup.setup_logger(options["verbosity"])
@@ -78,6 +85,11 @@ class Command(BaseCommand):
 
         self.test_email = options["test-email"]
 
+        if options["undeliverable_file"]:
+            self.undeliverable = self._get_undeliverable(options["undeliverable_file"])
+        else:
+            self.undeliverable = None
+
         # Filter for the authors who we would send mail to
         authors = (
             Author.objects.filter(pairs__retractedpaper__rct_group="i")
@@ -96,6 +108,15 @@ class Command(BaseCommand):
             )
 
             self._send_for_author(author)
+
+    def _get_undeliverable(self, results_path):
+        results_df = pandas.read_csv(results_path)
+        assert "result" in results_df.columns
+        undeliverable = results_df[
+            (results_df.result == "undeliverable")
+            | (results_df.result == "do_not_send")
+        ]
+        return undeliverable.address
 
     def _send_for_author(self, author):
         """
@@ -144,6 +165,16 @@ class Command(BaseCommand):
                 except anymail.exceptions.AnymailInvalidAddress:
                     logging.info(
                         "  Ignoring invalid email %s",
+                        author_alias.email_address,
+                    )
+                    valid = False
+
+                if (
+                    self.undeliverable is not None
+                    and author_alias.email_address in self.undeliverable.values
+                ):
+                    logging.warning(
+                        "  Ignoring undeliverable email %s",
                         author_alias.email_address,
                     )
                     valid = False
@@ -223,7 +254,10 @@ class Command(BaseCommand):
         body = "<p>Dear %s,</p>" % aliases[0].full_name()
         body += "<p>"
         body += """We're writing to let you know that the following paper(s) cited a
-                paper which has been retracted."""
+                paper which has been retracted.<br>Please note, we are
+                interested in reducing future citations of retracted papers, so
+                your citation may have happened before or after the paper was
+                retracted."""
         body += "</p>"
         body += "<table border='1' cellpadding='0' cellspacing='0' width='80%' style='border-collapse: collapse;'>"
         body += "<tr>"
@@ -262,8 +296,8 @@ class Command(BaseCommand):
             papers.</p>
 
             <p><strong>Was this information useful?</strong><br/>
-            Please click below to let us know whether you knew about the
-            retraction.
+            Please click below to let us know <strong>whether you know about
+            the retraction now, not based on when you cited it</strong>.
 
             <br>Your voluntary click, below, is taken as consent for your
             response to be included in our aggregated analysis. If you have any
@@ -373,6 +407,8 @@ class Command(BaseCommand):
                 )
         except anymail.exceptions.AnymailError as e:
             logging.exception("  Error trying to send email: %s", str(e))
+        except UnicodeError as e:
+            logging.exception("  Unicode error trying to send email: %s", str(e))
         except django.db.utils.Error as e:
             logging.exception("  Database error while mailing: %s", str(e))
             raise
