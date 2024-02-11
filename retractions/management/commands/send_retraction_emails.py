@@ -223,7 +223,10 @@ class Command(BaseCommand):
         body = "<p>Dear %s,</p>" % aliases[0].full_name()
         body += "<p>"
         body += """We're writing to let you know that the following paper(s) cited a
-                paper which has been retracted."""
+                paper which has been retracted.<br>Please note, we are
+                interested in reducing future citations of retracted papers, so
+                your citation may have happened before or after the paper was
+                retracted."""
         body += "</p>"
         body += "<table border='1' cellpadding='0' cellspacing='0' width='80%' style='border-collapse: collapse;'>"
         body += "<tr>"
@@ -262,8 +265,8 @@ class Command(BaseCommand):
             papers.</p>
 
             <p><strong>Was this information useful?</strong><br/>
-            Please click below to let us know whether you knew about the
-            retraction.
+            Please click below to let us know <strong>whether you know about
+            the retraction now, not based on when you cited it</strong>.
 
             <br>Your voluntary click, below, is taken as consent for your
             response to be included in our aggregated analysis. If you have any
