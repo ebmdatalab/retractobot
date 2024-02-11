@@ -1,12 +1,14 @@
 import email.utils
 import logging
 import mailbox
+import pathlib
 
 import anymail.exceptions
 import anymail.utils
 import django.core.exceptions
 import django.db
 import html2text
+import pandas
 from django.core.mail import EmailMultiAlternatives
 from django.core.management.base import BaseCommand
 
@@ -59,6 +61,11 @@ class Command(BaseCommand):
             help="Maximum number of authors to send to",
             default=None,
         )
+        parser.add_argument(
+            "--undeliverable-file",
+            type=pathlib.Path,
+            help="File with validation result",
+        )
 
     def handle(self, *args, **options):
         setup.setup_logger(options["verbosity"])
@@ -78,6 +85,11 @@ class Command(BaseCommand):
 
         self.test_email = options["test-email"]
 
+        if options["undeliverable_file"]:
+            self.undeliverable = self._get_undeliverable(options["undeliverable_file"])
+        else:
+            self.undeliverable = None
+
         # Filter for the authors who we would send mail to
         authors = (
             Author.objects.filter(pairs__retractedpaper__rct_group="i")
@@ -96,6 +108,15 @@ class Command(BaseCommand):
             )
 
             self._send_for_author(author)
+
+    def _get_undeliverable(self, results_path):
+        results_df = pandas.read_csv(results_path)
+        assert "result" in results_df.columns
+        undeliverable = results_df[
+            (results_df.result == "undeliverable")
+            | (results_df.result == "do_not_send")
+        ]
+        return undeliverable.address
 
     def _send_for_author(self, author):
         """
@@ -144,6 +165,16 @@ class Command(BaseCommand):
                 except anymail.exceptions.AnymailInvalidAddress:
                     logging.info(
                         "  Ignoring invalid email %s",
+                        author_alias.email_address,
+                    )
+                    valid = False
+
+                if (
+                    self.undeliverable is not None
+                    and author_alias.email_address in self.undeliverable.values
+                ):
+                    logging.warning(
+                        "  Ignoring undeliverable email %s",
                         author_alias.email_address,
                     )
                     valid = False
@@ -376,6 +407,8 @@ class Command(BaseCommand):
                 )
         except anymail.exceptions.AnymailError as e:
             logging.exception("  Error trying to send email: %s", str(e))
+        except UnicodeError as e:
+            logging.exception("  Unicode error trying to send email: %s", str(e))
         except django.db.utils.Error as e:
             logging.exception("  Database error while mailing: %s", str(e))
             raise
